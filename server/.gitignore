@@ -1,0 +1,21 @@
+node_modules
+.env
+test-game
+assets/uploads
+assets/uploads-origin
+
+#logs
+logs
+
+# scripts
+scripts
+yarn
+# lock
+yarn-error.log
+
+**/.DS_Store
+
+../.DS_Store
+*.xlsx
+
+/client

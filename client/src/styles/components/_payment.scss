@@ -1,0 +1,327 @@
+.Payment{
+    background: white;
+    .title{
+        text-align: left;
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 1.27;
+        color: #002d4b;
+    }
+    .input-custom{
+        .ant-select-selection--single{
+            border-radius: 5px !important
+        }
+    }
+    .title-primary{
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 2.28;
+        color: #05c4e1;
+    }
+    .ant-select-selection{
+        height: 60px;
+        .ant-select-selection__rendered{
+            line-height: 40px;
+            color: #9b9b9b;
+            
+        }
+       
+        .ant-select-arrow{
+            margin-right: 20px;
+            i{
+                svg{
+                    display: none;
+                }
+                width: 12px;
+                height: 12px;
+                border-left: 2px solid #05c4e1;
+                border-bottom: 2px solid #05c4e1;
+                transform: rotate(-45deg);
+                -webkit-transition: transform 0.5s; /* For Safari 3.1 to 6.0 */
+                transition: transform 0.5s;
+            }
+        }
+    }
+    .ant-select-open{
+        i{
+            transform: rotate(135deg) !important;
+            -webkit-transition: transform 0.5s; /* For Safari 3.1 to 6.0 */
+            transition: transform 0.5s;
+        }
+    }
+    
+    .form-custom.position-relative.form-group{
+        height: 60px;
+        input{
+            height: 60px;
+            border-radius: 5px;
+            font-size: 13px;
+            padding-left: 25px;
+        }
+        & > .is-invalid{
+            margin-bottom: -5px;
+        }
+        .expiration-text{
+            font-size: 80%;
+            margin-bottom: 10px;
+        }
+     
+    }
+    ._container_checkbox {
+        display: block;
+        position: relative;
+        padding-left: 35px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 22px;
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+            &:checked ~ .checkmark:after {
+                display: block;
+            }
+        }
+        &.cb_text{
+            font-family: Montserrat;
+            font-size: 13px;
+            font-weight: 300;
+            color: #002d4b;
+        }
+        .checkmark {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 20px;
+            width: 20px;
+            border-radius: 50%;
+            background-color: #eee;
+            &:after {
+                content: "";
+                position: absolute;
+                display: none;
+                left: 8px;
+                top: 5px;
+                width: 5px;
+                height: 10px;
+                border: solid white;
+                border-width: 0 2px 2px 0;
+                -webkit-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            
+        }
+        &:hover input ~ .checkmark {
+            background-color: #ccc;
+        }
+        input:checked ~ .checkmark {
+            background-color: #2196F3;
+        }
+    }
+    .date-picker-payment .ant-calendar-picker{
+        width: 100%;
+        i{
+            right: 25px;
+        }
+    }
+    .cvv-card{
+        position: relative;
+        .cvv-card-icon{
+            position: absolute;
+            right: 35px;
+            top: 18px;
+        }
+    }
+    .btn-submit, &.btn-cancel{
+        width: 100%;
+        height: 60px;
+        // padding: 5px 20px;
+        border-radius: 5px;
+        background-color: #05c4e1;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+        color: #ffffff;
+        border: 0;
+        margin-bottom: 30px;
+    }
+}
+li > .select-card-item{
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+li > .disabled{
+   color: #05c4e1 !important;
+   font-size: 13px;
+}
+
+.PaymentModal{
+    max-width: 800px !important;
+}
+@media only screen and (max-width: 480px) {
+    .btn-submit{
+        width: 100%;
+    }
+}
+@media (max-width: 326px) {
+    .Payment {
+        .title{
+            font-size: 25px !important
+        }
+    }
+}
+// @media (max-width: 1000px) {
+//     .Payment {
+//         .title{
+//             font-size: 25px !important
+//         }
+//     }
+// }
+@media (max-width: 768px) {
+    .btn-book-show-mobile {
+        padding-left: 35px !important;
+        padding-right: 35px !important;
+        display: table !important;
+        // display: inline-block;
+        width: 100% !important;
+        border-spacing: 0px !important;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
+        border-top: 1px solid rgb(224, 220, 220) !important;
+        position: fixed !important; 
+        bottom: 0 !important;
+        z-index: 4 !important;
+        left: 0 !important;
+        background-color: white !important;
+    }
+    .right-side {
+        display: none;
+    }
+    
+}
+
+.modal-payment-process{
+    height: 100% !important;
+    top: 0px !important;
+    .ant-modal-body{
+        padding: 5px !important;
+    }
+    .ant-modal-content {
+        height: 90% !important;
+        overflow: auto;
+        margin-top: 65px;
+    }
+    .info-package {
+        // padding: 60px 90px 60px 30px;
+        // background: #f6f6f6;
+        border: solid 1px #f2f2f2;
+        padding: 0px 15px 80px 15px;
+        .info-user {
+            .review-user {
+                display: flex;
+                // margin-top: 10px;
+                .star-ratings {
+                    display: inline-block;
+                    width: auto;
+                }
+                span {
+                    margin-left: 10px;
+                    color: #05c4e1;
+                    font-family: "Montserrat";
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 32px;
+                }
+            }
+            border-bottom: solid 1px #f2f2f2;
+            padding: 10px 0 10px 0;
+            h3 {
+                margin: 0;
+                color: #05c4e1;
+                font-family: "Montserrat";
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 57px;
+            }
+            h2 {
+                margin: 0;
+                color: #002d4b;
+                font-family: "Montserrat";
+                font-size: 30px;
+                font-weight: 600;
+                line-height: 57px;
+            }
+          
+            .avatar {
+                width: 80px;
+                display: none;
+                // margin-top: 50px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        .table-data{
+            // border-bottom: solid 1px #f2f2f2;
+            padding: 0px 0 0px 0;
+            .table td,
+            .table th {
+                padding-left: 0;
+                border: none;
+                padding-right: 0;
+                color: #002d4b;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-weight: 400;
+
+                /* Text style for "Package 1" */
+                color: #002d4b;
+            }
+        }
+        .info-package-detail {
+            border-bottom: solid 1px #f2f2f2;
+            padding: 10px 0 10px 0;
+            .info-package-title {
+                // padding: 0 90px 30px 30px;
+                h3 {
+                    color: #002d4b; // font-family: "Montserrat Light";
+                    margin: 0;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 57px;
+                }
+                p {
+                    img{
+                        margin-right: 20px;
+                        font-size: 30px
+                    }
+                    color: #002d4b;
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 31px;
+                }
+            }
+          
+        }
+        .action-edit {
+            text-align: center;
+            a {
+                margin: 45px auto;
+                display: inline-block;
+                width: 50%;
+                border-radius: 5px !important;
+                text-align: center;
+            }
+        }
+    }
+}

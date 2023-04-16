@@ -1,0 +1,353 @@
+.search_banner {
+  height: 76px;
+  background-color: #05c4e1;
+  // margin-top: 78px;
+  .row{
+    width: fit-content;
+    font-size: 13px;
+    margin: auto;
+    .search_banner_type.type1, .search_banner_type.type2{
+      padding-right: 100px;
+    }
+    .search_banner_type{
+      width: auto !important;
+      span {
+        float: left;
+        width: 33px;
+        border: 1px solid #fff;
+        text-align: center;
+        margin-right: 10px;
+        background: #fff;
+        line-height: 2.38;
+        margin-top: -8px;
+        font-weight: 600;
+        border-radius: 100%;
+        color: #05c4e1;
+        height: 33px;
+      }
+      p {
+        color: #fff;
+        margin-top: 30px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.search_banner_bottom{
+  height: 125px;
+  padding: 0 130px;
+  background-color: rgba(226, 226, 226, 0.3);
+  .content{
+    width: fit-content;
+    margin: 0 auto;
+    .robo1{
+      width: 80px;
+      margin-top: 20px;
+      float: left;
+    }
+    .robo2{
+      width: 80px;
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    h1{
+      float: left;
+      font-size: 38px;
+      font-weight: 800;
+      color: #002d4b;
+      margin-top: 40px;
+      margin-left: 20px;
+      span{
+        color: #05c4e1;
+      }
+    }
+    p{
+      font-size: 13px;
+      margin-top: 50px;
+      float: left;
+      margin-left: 22px;
+      color: #002d4b;
+      font-weight: bold;
+    }
+  }
+}
+.search-content {
+  padding: 40px 0;
+  .btn-search {
+    text-align: center;
+    margin-top: 25px;
+    a {
+      color: #fff !important;
+      font-size: 18px !important;
+      padding: 6px 45px !important;
+      line-height: 36px !important;
+      i {
+        margin-right: 12px;
+        font-size: 20px;
+      }
+    }
+  }
+  .search_reset{
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    color: #05c4e1;
+    margin-top: 20px;
+  }
+  .ant-calendar-picker-input {
+    padding: 8px;
+    height: auto;
+    font-size: 16px !important;
+    display: inline-block;
+    border-radius: 5px 0 0 5px;
+    line-height: 32px !important;
+  }
+  .ant-time-picker-input{
+    padding: 8px;
+    height: auto;
+    font-size: 16px !important;
+    border-radius: 0 5px 5px 0;
+    display: inline-block;
+    line-height: 32px !important;
+  }
+  .search_title {
+    text-align: center;
+    font-size: 25px;
+    color: #05c4e1;
+  }
+  .category_type {
+    h1 {
+      text-align: center;
+      font-weight: 600;
+      width: fit-content;
+      margin: 0px auto;
+      margin-bottom: 30px;
+      color: #002d4b;
+      .dropdown{
+        width: 18px;
+      }
+    }
+    .search_category{
+      position: absolute;
+      width: 75%;
+      left: 12%;
+      z-index: 10;
+      .title_search_cate{
+        margin-top: -20px !important;
+        box-shadow: 0 4px 35px 0 rgba(90, 97, 105, 0.1);
+      }
+    }
+  }
+  .select_price {
+    padding: 6.5px;
+    cursor: pointer;
+    text-align: left;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    p {
+      color: #aeaeae;
+      padding: 7px;
+      margin-bottom: 0;
+      i {
+        float: right;
+        color: #05c4e1;
+        margin-top: 4px;
+      }
+    }
+  }
+  .search_location{
+    height: auto;
+    padding: 11px 25px;
+    display: inline-block;
+    border-radius: 30px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+}
+.ant-dropdown{
+  z-index: 8;
+  .changePrice_content {
+    padding: 10px;
+    .input_group {
+      margin-top: 25px;
+      overflow: auto;
+      p {
+        width: 45%;
+        padding: 10px 15px;
+        border: 1px solid #bfbfbf;
+        border-radius: 5px;
+      }
+    }
+    .action_changePrice {
+      overflow: auto;
+      margin-top: 5px;
+      p {
+        width: 45%;
+        cursor: pointer;
+        text-align: center;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 1300px) {
+  .search_banner{
+    padding: 0px 40px;
+    .search_banner_type p{
+      font-size: 12px;
+    }
+  }
+  .search_banner_bottom{
+    padding: 0 10px;
+    .content{
+      h1{
+        font-size: 27px;
+      }
+      img{
+        width: 60px !important;
+      }
+      p{
+        width: 40%;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .search_banner{
+    .search_banner_type.type1, .search_banner_type.type2{
+      padding-right: 30px !important;
+    }
+  }
+  .search_banner_bottom .content p{
+    width: 32%;
+  }
+  .search-content{
+    .col-sm-6{
+      margin-bottom: 15px;
+
+    }
+    .radius,.postcode{
+      padding: 0;
+    }
+    .under-search{
+      margin-top: 0 !important;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .search_banner{
+    padding: 0 !important ;
+    .search_banner_type.type1, .search_banner_type.type2{
+      padding-right: 15px !important;
+    }
+    .search_banner_type {
+      p{
+        font-size: 10px;
+      }
+      span{
+        line-height: 3.2 !important;
+      }
+    }
+  }
+  .search_banner_bottom{
+    .content{
+      display: grid;
+      img{
+        display: none;
+      }
+      p{
+        width: 100% !important;
+        margin-top: 0;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .search_banner {
+    .search_banner_type{
+      margin-top: 5px;
+      p{
+        font-size: 8px;
+      }
+      span{
+        width: 20px !important;
+        font-size: 12px;
+        margin-top: -5px !important;
+        line-height: 1.5 !important;
+        height: 20px !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .search_banner {
+    .search_banner_type.type1, .search_banner_type.type2{
+      padding-right: 5px !important;
+    }
+    .search_banner_type{
+      padding: 0 !important;
+      span{
+        margin-right: 3px !important;
+      }
+    }
+  }
+  .search_banner_bottom{
+    .content{
+      h1{
+        font-size: 20px;
+      }
+      p{
+        margin: 0;
+        font-size: 10px;
+      }
+    }
+  }
+  .category_type{
+    h1{
+      font-size: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .ant-calendar-input-wrap{
+    display: none !important;
+  }
+  .ant-time-picker-panel-input-wrap{
+    display: none !important;
+  }
+  .search_category{
+    width: 90% !important;
+    left: 5% !important;
+    padding-top: 0 !important;
+    .content-level{
+      .col-sm-12, .col-md-4{
+          .card{
+              border-radius: 0;
+          }
+          ul{
+              li{
+                  &.active{
+                      .right.closeCollapase{
+                          transform: rotateZ(45deg) !important;
+                      }
+                  }
+                  &:hover{
+                      border: 0px;
+                      background: #fff !important;
+                  }
+              }
+          }
+      }
+  }
+  }
+}

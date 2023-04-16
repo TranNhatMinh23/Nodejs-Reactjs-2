@@ -1,0 +1,101 @@
+.data_analytic{
+    .recharts-wrapper{
+      width: auto !important; 
+    }
+    .row {
+        h3 {
+            margin: 0;
+            font-weight: 300;
+            font-size: 29px;
+            color: #002d4b;
+        }
+        h6 {
+            margin-bottom: 5px;
+            font-size: 11px;
+            text-transform: uppercase;
+            font-family: Montserrat;
+            color: #05c4e1;
+            font-weight: 400;
+        }
+        .star-ratings {
+            margin-top: 4px;
+            text-align: left;
+        }
+    }
+    .marginTop{
+        margin-top: 50px;
+        h3{
+            font-weight: 700;
+        }
+    }
+
+    h3 {
+        margin: 0;
+        font-weight: 700;
+        font-size: 29px;
+        color: #002d4b;
+    }
+    // user-review
+    .users-review {
+        margin: 0px 0 30px;
+        .ant-list-item-meta-title {
+          color: #002d4b;
+          font-size: 14px;
+          // font-weight: 300;
+          font-family: "Montserrat Semi Bold";
+          font-weight: 600;
+          margin: 0;
+        }
+        .ant-list-item-meta-description {
+          font-size: 14px;
+          font-weight: 300;
+          font-family: "Montserrat Semi Bold";
+          margin: 0;
+        }
+        .ant-list-item-content {
+          font-size: 14px;
+          font-weight: 300;
+          line-height: 21px;
+          a {
+            font-size: 14px;
+            font-weight: 300;
+            color: #05c4e1;
+            line-height: 21px;
+          }
+        }
+        .ant-list-footer {
+          display: none;
+        }
+        .ant-pagination-item {
+          border: none;
+          &:hover {
+            // padding: 5px;
+            border-radius: 50%;
+            background-color: #05c4e1;
+            color: #fff;
+          }
+        }
+        .ant-pagination-prev,
+        .ant-pagination-next {
+          a {
+            border: none;
+            &:hover {
+              border-radius: 50%;
+              background-color: #05c4e1;
+              color: #fff;
+              i {
+                margin-top: -2px;
+              }
+            }
+          }
+        }
+        .ant-pagination-item-active {
+          border-radius: 50%;
+          background-color: #05c4e1;
+          color: #fff;
+        }
+        .ant-list-pagination {
+          text-align: left;
+        }
+      }
+}

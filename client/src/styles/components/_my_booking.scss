@@ -1,0 +1,161 @@
+.mybooking {
+    .container {
+        // margin-left: 0;
+        .mybooking-content {
+            h6{
+                margin-bottom: 30px;
+                font-size: 11px;
+                margin-top: 40px;
+                text-transform: uppercase;
+                font-family: Montserrat;
+                color: #05c4e1;
+                font-weight: 400;
+            }
+            h3{
+                font-family: Montserrat;
+                font-size: 29px;
+                font-weight: 500;
+                color: #002d4b;
+            }
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+            }
+            .title-booking {
+                margin: 0;
+                margin-top: 30px;
+                font-weight: 300;
+                font-size: 29px;
+                color: #002d4b;
+                margin-bottom: 10px;
+            }
+            .item {
+                display: flex;
+                // width: 100%;
+                margin-bottom: 15px;
+                .no_upcoming {
+                    min-height: 250px;
+                    width: 100%;
+                    max-width: 1400px;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    background-image: url(/assets/images/no_upcoming.png);
+                    background-size: cover;
+                    padding: 75px 0;
+                    .container {
+                        button {
+                            width: 166px;
+                            margin-top: 20px;
+                            border-radius: 6px;
+                            background-color: #05c4e1;
+                            color: #ffffff;
+                            height: 60px;
+                            font-size: 16px;
+                            font-weight: 700;
+                            border: none;
+                        }
+                        p {
+                            color: #ffffff;
+                            font-size: 30px;
+                            font-weight: 600;
+                            line-height: 40px;
+                            max-width: 100%;
+                            margin: 0;
+                        }
+                    }
+                }
+                .content-item {
+                    display: flex;
+                    position: relative;
+                    text-align: center;
+                    flex-direction: column;
+                    box-shadow: 0 4px 35px rgba(90, 97, 105, 0.1);
+                    border-radius: 9px;
+                    background-color: #ffffff;
+                    .background {
+                        width: 100%;
+                        border-radius: 9px 9px 0 0;
+                        object-fit: cover;
+                        max-height: 200px;
+                        min-height: 200px;
+                        height: 100%;
+                    }
+                    .address{
+                        flex: 1 0 auto;
+                    }
+                    .image-user {
+                        width: 60px;
+                        height: 60px;
+                        border-radius: 50%;
+                        position: absolute;
+                        left: calc(50% - 30px);
+                        top: 115px;
+                    }
+                    h3 {
+                        color: #002d4b;
+                        font-size: 16px;
+                        margin-top: 15px;
+                        font-weight: 300;
+                    }
+                    p {
+                        color: #002d4b;
+                        font-size: 12px;
+                        font-weight: 300;
+                        padding: 0 20px;
+                        letter-spacing: -0.3px;
+                    }
+                    >div {
+                        text-align: center;
+                        padding: 0px 20px 25px 21px;
+                        p {
+                            color: #002d4b;
+                            font-size: 12px;
+                            font-weight: 300;
+                            letter-spacing: -0.3px;
+                        }
+                        .date-title {
+                            margin-top: 10px;
+                            color: #05c4e1;
+                            font-size: 10px;
+                            font-weight: 400;
+                            text-transform: uppercase;
+                            margin-bottom: 0;
+                        }
+                        .date {
+                            font-weight: 300;
+                            line-height: 16px;
+                            margin: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .mybooking {
+        .container {
+            .mybooking-content {
+                .no_upcoming {
+                     background-position: right -200px bottom 27px;
+                    .container p {
+                        font-size: 25px !important;
+                    }
+                }
+
+                .no_upcoming_gigs {
+                    background-position: right -100px bottom 10px !important;
+                   .container p {
+                       font-size: 25px !important;
+                   }
+               }
+            }
+        }
+    }
+}
+@media(max-width: 567px) {
+    .mybooking .container .mybooking-content .no_upcoming .container p{
+        font-size: 17px !important;
+    }
+}

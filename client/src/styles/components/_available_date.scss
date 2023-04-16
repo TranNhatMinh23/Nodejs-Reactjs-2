@@ -1,0 +1,94 @@
+.available-date {
+    >.row {
+        margin-top: 20px;
+        .ant-fullcalendar-header {
+            display: none;
+        }
+        .header-date {
+            align-items: center;
+            margin-bottom: 10px;
+            h3 {
+                margin: 0;
+                font-size: 12px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.92;
+                letter-spacing: normal;
+                text-align: center;
+                color: #05c4e1;
+            }
+            img {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.check-available-datepicker {
+    .ant-fullcalendar-tbody {
+        .unAvailalble {
+            .ant-fullcalendar-value {
+                color: #999999;
+                text-decoration: line-through;
+                background: transparent;
+                border: none;
+                box-shadow: none;
+            }
+        }
+        .ant-fullcalendar-today {
+            .ant-fullcalendar-date {
+                .ant-fullcalendar-value {
+                    font-size: 11px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.45;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #05c4e1;
+                    background-color: rgba(5, 196, 225, 0.25);
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+    }
+    .ant-calendar-tbody {
+        .unAvailalble {
+            .ant-fullcalendar-value {
+                color: #999999;
+                text-decoration: line-through;
+                background: transparent;
+                border: none;
+                box-shadow: none;
+            }
+        }
+        .ant-calendar-today {
+            .ant-fullcalendar-date {
+                .ant-fullcalendar-value {
+                    font-size: 11px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.45;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #05c4e1;
+                    background-color: rgba(5, 196, 225, 0.25);
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                }
+            }
+        }
+        .ant-calendar-disabled-cell {
+            .ant-fullcalendar-value {
+                cursor: not-allowed!important;
+            }
+        }
+    }
+}

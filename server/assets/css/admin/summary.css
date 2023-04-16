@@ -1,0 +1,108 @@
+body {
+  font-family: Arial;
+}
+
+/* Style the tab */
+.tab {
+  width: 30%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+.tablinks {
+  width: 50%;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.title-dis {
+  margin-right: 5px;
+}
+.cus-center {
+  text-align: center;
+}
+@media (max-width: 768px) {
+  .tab {
+    width: 80%;
+  }
+}
+@media (max-width: 500px) {
+  .tab {
+    width: 80%;
+  }
+  .btn-del {
+    margin-left: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .to-date {
+    float: left !important;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+.greenClass{
+  color :green;
+}
+
+.orangeClass{
+  color :orange;
+}
+
+.redClass{
+  color :red;
+}

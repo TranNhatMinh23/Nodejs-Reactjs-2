@@ -1,0 +1,217 @@
+.search-result {
+  padding: 60px 0;
+  background-color: rgba(226, 226, 226, 0.3);
+  .header_result{
+    overflow: auto;
+    .title_result{
+      font-size: 29px;
+      font-weight: bold;
+      color: #002d4b;
+      width: 50%;
+      float: left;
+    }
+    .sort_price{
+      width: 20%;
+      float: right;
+    }
+  }
+  .no_result{
+    padding: 50px;
+    font-size: 25px;
+    color: #002d4b;
+  }
+  .search_type{
+    font-size: 20px;
+    color: #05c4e1;
+  }
+  .ant-card-cover{
+    img{
+      width: 100%;
+    } 
+  }
+  .result-header-card {
+    .hear_icon_slider {
+      display: inline-block;
+      width: 32px;
+      height: 32px;
+      // border-radius: 50%;
+      position: absolute;
+      // padding: 5px;
+      top: 24px;
+      right: 21px;
+      img {
+        width: 100%;
+      }
+      &:hover {
+        // background: rgba(187, 176, 176, 0.75);
+      }
+    }
+    .carousel-indicators {
+      li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+      }
+    }
+  }
+  .card-content-result {
+    text-align: center;
+    margin-bottom: 30px;
+    .result-card-title {
+      // word-break: break-all;
+      // white-space: initial;
+      // white-space: nowrap;
+      // word-wrap: break-word;
+      overflow: hidden;
+      word-wrap: normal;
+      margin-top: 15px;
+      font-family: "Montserrat";
+      font-size: 20px;
+      font-weight: bold;
+      color: #002d4b;
+      margin-bottom: 0px;
+      min-height: 60px;
+    }
+    // .result-packages {
+    //   margin-top: 12px;
+    //   h3 {
+    //     color: #002d4b;
+    //     font-family: "Montserrat";
+    //     font-size: 14px;
+    //     font-weight: 400;
+    //     color: #002d4b;
+    //     margin-bottom: 10px;
+    //     min-height: 15px;
+    //   }
+    //   p {
+    //     color: #9b9b9b;
+    //     font-family: "Montserrat";
+    //     font-size: 14px;
+    //     font-weight: 400;
+    //     // margin-bottom: 5px;
+    //   }
+    // }
+    .action-booking {
+      margin-top: 30px;
+      a {
+        color: #fff;
+        width: 100%;
+        font-family: "Montserrat";
+        font-size: 16px;
+        font-weight: 700;
+        &:hover{
+          color: #fff !important;
+        }
+      }
+    }
+  }
+  .load_more_act{
+    margin: 30px 0;
+    width: 100%;
+    text-align: center;
+    a{
+      width: 35px;
+      height: 35px;
+      display: inline-block;
+      border-radius: 50%;
+      img{
+        width: 100%;
+      }
+      &:hover{
+        // transition: transform 1s;
+        // width: 40px;
+        // height: 40px;
+      }
+    }
+  }
+}
+.photo-carousel{
+  img{
+    height: 255px;
+  }
+}
+
+.rotate-center {
+  -webkit-animation: rotate-center 0.6s ease-in-out both;
+  animation: rotate-center 0.6s ease-in-out both;
+}
+
+@-webkit-keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotate-center {
+  0% {
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 991px) {
+  .search-result{
+    .header_result {
+      .sort_price{
+        width: 30%
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .search-result
+    .card-content-result{
+      .result-card-title{
+        min-height: 90px;
+      }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+  .category_type{
+   .title_site{
+     display: none;
+   }
+   .title_mobile{
+    display: block !important;
+  }
+  }
+}
+
+@media (max-width: 500px) {
+  .search-result .card-content-result .result-card-title {
+    min-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-result{
+    .header_result {
+      .sort_price{
+        width: 40%;
+        .ant-select-selection{
+          padding: 0 !important;
+          font-size: 10px;
+        }
+      }
+      .title_result{
+        font-size: 18px;
+      }
+    }
+    .search_type{
+      font-size: 12px;
+    }
+    .no_result{
+      font-size: 20px;
+    }
+  }
+}

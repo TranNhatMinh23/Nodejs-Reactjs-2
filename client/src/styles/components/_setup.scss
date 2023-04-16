@@ -1,0 +1,60 @@
+.setup-content {
+    .bruce-mars {
+        margin-top: 98px;
+        width: 100%;
+    }
+    .support {
+        align-items: center;
+        margin-bottom: 97px;
+        &:last-of-type {
+            margin: 0;
+        }
+        .show-on-mobile{
+            display: none;
+        }
+        h3 {
+            color: #002d4b;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 57px;
+        }
+        p {
+            color: #002d4b;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 21px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .ready {
+        background-image: url(/assets/images/dominik-scythe.png);
+    }
+}
+
+@media(max-width: 576px) {
+    .setup-content {
+        .show-on-mobile{
+            display: inline !important;
+        }
+        .not-show-on-mobile{
+            display: none !important;
+        }
+        .ready {
+            background-image: url(/assets/images/dominik-scythe-1.png);
+            background-position-x: 0;
+        }
+    }
+}
+
+@media(max-width: 327px) {
+    .setup-content {
+        .support {
+            h3 {
+                line-height: 27px;
+                margin: 40px 0;
+            }
+        }
+    }
+}

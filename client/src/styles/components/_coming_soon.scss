@@ -1,0 +1,183 @@
+.coming-soon {
+  width: 100%;
+  position: relative;
+  background: url("/assets/images/coming-soon/bg-1.jpg") no-repeat center center;
+  height: 100vh;
+  padding: 15vh 0;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  .content-coming-soon {
+    h3 {
+      color: #ffffff;
+      // font-family: "Montserrat Semi Bold";
+      font-size: 88px;
+      font-weight: 600;
+      line-height: 96px;
+      margin-bottom: 30px;
+    }
+    h6{
+      margin-bottom: 100px;
+      font-size: 18px;
+      color: #fff;
+      font-family: "Montserrat";
+      font-weight: 400;
+    }
+    .keep-update {
+      h4 {
+        color: #ffffff;
+        font-family: "Montserrat";
+        // font-family: "Montserrat Semi Bold";
+        font-size: 16px;
+        font-weight: 700;
+        font-size: 16px;
+      }
+      p {
+        color: #ffffff;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 400;
+        /* Text style for "Keep updat" */
+      }
+    }
+  }
+  .search-coming-soon {
+    position: relative;
+    width: 40%;
+    margin: 30px auto;
+    input {
+      border-radius: 30px;
+      padding: 13px 30px;
+      height: auto;
+      display: inline-block;
+      color: #fff;
+      width: 100%;
+      font-size: 14px;
+      background: rgba(255, 255, 255, 0);
+      border: 1px solid #05c4e1;
+      padding-right: 120px;
+      &::placeholder{
+        color: #fff;
+      }
+    }
+    button {
+      position: absolute;
+      right: 0;
+      display: inline-block;
+      padding: 14px 25px;
+      border-radius: 30px;
+      color: #fff;
+      font-family: Montserrat;
+      font-size: 14px;
+      font-weight: 700;
+      background: #05c4e1;
+    }
+  }
+  .logo-page {
+    margin: 0 auto;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+    right: 0;
+    img {
+      width: 180px;
+    }
+  }
+}
+
+// responsive
+@media (max-width: 1199px) {
+  .coming-soon {
+    .search-coming-soon {
+      width: 50%;
+      input{
+        padding-right: 120px;
+      }
+    }
+    .logo-page {
+      width: 25%;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .coming-soon {
+    .search-coming-soon {
+      width: 80%;
+      input{
+        padding-right: 120px;
+      }
+    }
+    .logo-page {
+      width: 25%;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .coming-soon {
+    background-image: url("/assets/images/coming-soon/bg-2.jpg");
+    .content-coming-soon {
+      h3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        line-height: 45px;
+      }
+      h6{
+        margin-bottom: 50px;
+      }
+      .keep-update {
+        h4 {
+          font-size: 16px;
+        }
+        p {
+          font-size: 14px;
+        }
+      }
+    }
+    .search-coming-soon {
+      width: 80%;
+      margin: 15px auto;
+      input{
+        padding-right: 120px;
+      }
+    }
+    .logo-page {
+      width: 150px;
+      // margin-top: 100px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .coming-soon {
+    .search-coming-soon {
+      input{
+        padding-right: 120px;
+      }
+    }
+  }
+}
+
+@media (max-width: 385px) {
+  .coming-soon {
+    .content-coming-soon {
+      h3{
+        font-size: 32px;
+      }
+      h6{
+        font-size: 14px;
+        margin-bottom: 30px;
+      }
+    }
+    .search-coming-soon{
+      width: 100%;
+    }
+    .logo-page{
+      img{
+        width: 120px;
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+.guarantee-content {
+    .fotografia-ges {
+        width: 100%;
+    }
+    .andrey-zvyagintsev {
+        width: 100%;
+        margin-bottom: 47px;
+    }
+    .here {
+        align-items: center;
+        margin-bottom: 99px;
+        img {
+            width: 100%;
+        }
+        p {
+            margin-left: 40px;
+            color: #002d4b;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 21px;
+        }
+        button {
+            margin-left: 40px;
+            margin-top: 30px;
+            background: #05c4e1;
+            width: 268px;
+            height: 60px;
+            border-radius: 5px;
+            border: none;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .guarantee-content {
+        .here {
+            p {
+                margin: 0;
+                margin: 58px 0;
+            }
+            button {
+                margin: 0;
+                width: 100%;
+            }
+        } 
+    }
+}

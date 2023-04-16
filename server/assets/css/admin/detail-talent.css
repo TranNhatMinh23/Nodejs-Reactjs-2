@@ -1,0 +1,116 @@
+.title{
+    margin-left: 40% !important;
+}
+.dis-title{
+    margin-bottom: 10px;
+}
+.cus-input{
+    margin-top: 10px;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* The actual popup */
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+  
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+  @media (max-width: 500px) {
+    .personal {
+      max-width: 100%;
+    }
+    .mobile-avatar{
+      max-width: 100%;
+    }
+    .title {
+      margin-left: 30% !important;
+  }
+  .delete{
+    width: 20% !important;
+  }
+  .btn-save{
+    width: 20% !important;
+  }
+  .resend{
+    width: 36% !important;
+  }
+  .add{
+    padding: 0;
+    width: 0%;
+  }
+  .tablinks{
+    font-size: 12px !important;
+  }
+  .pay{
+    padding: 13px !important;
+  }
+  .balance-input{
+    margin-left: 15px;
+    max-width: 89%;
+  }
+  .label-bal{
+    margin-left: 20px;
+  }
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }

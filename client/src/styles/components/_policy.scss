@@ -1,0 +1,68 @@
+.policy_content{
+    margin-top: 180px;
+    margin-bottom: 60px;
+    .no_policy{
+        text-align: center;
+        padding: 100px 310px;
+        font-size: 40px;
+    }
+    .policy_title{
+        padding: 0 40px;
+        ul {
+            list-style: none;
+            padding: 0;
+            li {
+                padding: 15px 0;
+                color: #002d4b;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 20px;
+                border-bottom: 1px solid #e2e2e2;
+                cursor: pointer;
+                &:last-of-type {
+                    border: none;
+                }
+            }
+            .active {
+                color: #05c4e1;
+            }
+        }
+    }
+    .policy_container{
+        > h3 {
+            color: #002d4b;
+            font-size: 45px;
+            font-weight: 600;
+            line-height: 57px;
+        }
+        p{
+            line-height: 30px;
+            font-size: 16px;
+        }
+        .content-answer{
+            p, li{
+                color: #002d4b;
+                font-size: 15px;
+                font-weight: 400;
+                font-family: Montserrat;
+                color: #002d4b;
+                line-height: 25px;
+            }
+            .table td,
+            .table th {
+                border-left: 1px solid #dee2e6;
+                border-right: 1px solid #dee2e6;
+                font-family: Montserrat;
+                font-size: 15px;
+                font-weight: 400;
+                color: #002d4b;
+            }
+            .table tr{
+                &:last-child {
+                    border-bottom: 1px solid #dee2e6;
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,171 @@
+.PaymentProcess{
+    .left-side{
+        background: #fff;
+        padding: 60px 60px 60px 0px;
+        .AddCardForm{
+            .form-control.is-invalid{
+                background-image: none !important;
+              }
+        }
+    }
+    .right-side{
+        .booking-invoice{
+            margin-bottom: 60px;
+            .info-package {
+                // padding: 60px 90px 60px 30px;
+                // background: #f6f6f6;
+                margin-top: 60px;
+                border: solid 1px #f2f2f2;
+                padding: 30px;
+                .info-user {
+                    .review-user {
+                        display: flex;
+                        // margin-top: 10px;
+                        .star-ratings {
+                            display: inline-block;
+                            width: auto;
+                        }
+                        span {
+                            margin-left: 10px;
+                            color: #05c4e1;
+                            font-family: "Montserrat";
+                            font-size: 18px;
+                            font-weight: 300;
+                            line-height: 32px;
+                        }
+                    }
+                    border-bottom: solid 1px #f2f2f2;
+                    padding: 30px 0 30px 0;
+                    h3 {
+                        margin: 0;
+                        color: #05c4e1;
+                        font-family: "Montserrat";
+                        font-size: 20px;
+                        font-weight: 300;
+                        line-height: 57px;
+                    }
+                    h2 {
+                        word-break: break-word;
+                        margin: 0;
+                        color: #002d4b;
+                        font-family: "Montserrat";
+                        font-size: 30px;
+                        font-weight: 600;
+                        line-height: 57px;
+                    }
+                  
+                    .avatar {
+                        width: 80px;
+                        display: inline-block;
+                        // margin-top: 50px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .table-data{
+                    // border-bottom: solid 1px #f2f2f2;
+                    padding: 30px 0 0px 0;
+                    .table td,
+                    .table th {
+                        padding-left: 0;
+                        border: none;
+                        padding-right: 0;
+                        color: #002d4b;
+                        font-family: Montserrat;
+                        font-size: 14px;
+                        font-weight: 400;
+        
+                        /* Text style for "Package 1" */
+                        color: #002d4b;
+                    }
+                }
+                .info-package-detail {
+                    border-bottom: solid 1px #f2f2f2;
+                    padding: 30px 0 30px 0;
+                    .info-package-title {
+                        // padding: 0 90px 30px 30px;
+                        h3 {
+                            color: #002d4b; // font-family: "Montserrat Light";
+                            margin: 0;
+                            font-size: 16px;
+                            font-weight: 300;
+                            line-height: 57px;
+                        }
+                        p {
+                            img{
+                                margin-right: 20px;
+                                font-size: 30px
+                            }
+                            color: #002d4b;
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            font-weight: 400;
+                            line-height: 31px;
+                        }
+                    }
+                  
+                }
+                .action-edit {
+                    text-align: center;
+                    a {
+                        margin: 45px auto;
+                        display: inline-block;
+                        width: 50%;
+                        border-radius: 5px !important;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .PaymentProcess {
+        .payment-process{
+            .left-side{
+                padding:60px 0px 0px 0px;
+            }
+          .right-side{
+              .info-package{
+                  .info-user{
+                      .user-text{
+                          .review-user{
+                              span{
+                                  margin-left: 0 !important
+                              }
+                              flex-direction: column;
+                              .star-ratings{
+                                  text-align: left !important
+                              }
+                          }
+                          h2{ font-size: 25px !important}
+                      }
+
+
+                  }
+              }
+            padding: 0 !important
+          }
+
+
+    }
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .PaymentProcess{
+        .left-side{
+            padding:15px  0px;
+        }
+    }
+}
+
+.modal-payment-success{ 
+    height: 100% !important;
+    // top: 0px !important;
+    .ant-modal-body{
+        padding: 0 !important
+    }
+}

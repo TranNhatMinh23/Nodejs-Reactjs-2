@@ -1,0 +1,416 @@
+.calendar {
+    .container {
+        margin-left: 0;
+        padding-left: 0;
+        .time_picker_container {
+            width: 300px;
+            .time_picker_preview {
+                height: 40px;
+                .preview_container {
+                    height: 40px;
+                    line-height: 40px;
+                    svg {
+                        top: 7px;
+                    }
+                }
+            }
+        }
+        .add-content {
+            padding: 20px;
+            margin: 30px 0;
+            .fill-btn {
+                width: 200px;
+            }
+        }
+        .list-time {
+            margin-bottom: 15px;
+            .select-week {
+                margin-bottom: 15px;
+                align-items: center;
+            }
+            .detail-calendar {
+                .title-dow {
+                    flex: 0 0 117px;
+                }
+                .btn-remove {
+                    cursor: pointer;
+                }
+                span {
+                    color: #002c4a;
+                    font-weight: 600;
+                }
+                .content-time {
+                    margin-bottom: 5px;
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.full-calendar {
+    position: relative;
+    .setting_calendar{
+        background-color: white;
+        padding: 15px; 
+        right: 0;
+        border-radius: 10px;
+        border-left: 4px solid #DDD;
+        z-index: 7;
+        height: 100%;
+        font-size: 13px;
+        position: absolute;
+        width: 380px;
+        .btn_close{
+            float: left;
+            font-size: 35px;
+            font-weight: 200
+        }
+        .titles_calendar{
+            font-size: 16px;
+            color: #002d4b;
+        }
+        .tyle_content{
+            color: #002d4b;
+        }
+        .view_calendar{
+            margin-top: 35px;
+        }
+        .customTimes{
+            i.ant-time-picker-clear{
+                pointer-events: none;
+                cursor: default;
+                text-decoration: none;
+            }
+        }
+        .ant-radio-group{
+            width: 100%;
+            .selectTimes{
+                width: 100%;
+                .ant-select-selection--single{
+                    padding: 8px 5px !important;
+                }
+            }
+        }
+        .switch_select{
+            float: right;
+        }
+        .title_gig{
+            float: right;
+            padding: 6px;
+            margin-top: -54px;
+            border-radius: 8px;
+            color: #ffffff;
+            line-height: 26px;
+            font-size: 16px
+        }
+        .profile_gig{
+            width: 100%;
+            margin-top: 48px;
+            overflow: auto;
+            .avt{
+                border-radius: 50%;
+                width: 55px;
+                height: 55px;
+            }
+            .profile_gig_right{
+                float: right;
+                font-size: 16px;
+                width: 80%;
+            }
+        }
+        .gig_item{
+            width: 100%;
+            overflow: auto;
+        }
+        .toolip_info{
+            color: #05c4e1;
+            font-size: 14px;
+            margin-left: 5px;
+            svg{
+                margin-bottom: 6px;
+            }
+        }
+
+        .dates-selected{
+            text-align: center;
+            border: 1px solid #e5e5e5;
+            border-radius: 5px;
+            height: 50px;
+            color: #002d4b;
+            line-height: 4;
+        }
+        .blockDates{
+            margin-top: 20px;
+            .text_radio{
+                display: inline-block;
+                color: #002d4b;
+                font-size: 13px;
+            }
+        }
+        .action_date{
+            margin-top: 15px;
+            width: 45%;
+            height: 40px;
+            border-radius: 5px;
+            background-color: #fff;
+            color: #05c4e1;
+            font-size: 16px;
+            border: 1px solid #05c4e1;
+            font-weight: 700;
+        }
+        .input-custom{
+            .ant-select-selection{
+                color: #002d4b !important;
+                font-weight: 200;
+                .ant-select-arrow{
+                    color: #05c4e1 !important;
+                }
+            }
+        }
+        .booking_references{
+            .booking_part{
+                margin-top: 10px;
+                p{
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .rbc-month-row {
+        flex-basis: 100px;
+    }
+    .btn-connect-google-calendar {
+        // position: absolute;
+        // left: 50%;
+        // top: 30%;
+        // transform: translateX(-50%);
+        // margin-top: 20px;
+    }
+}
+
+.rbc-month-row{
+    cursor: pointer;
+}
+
+.rbc-selected-cell {
+    background: #bce8f1 !important;
+    opacity: .3;
+}
+
+
+.rbc-toolbar{
+    .row{
+        width: 100%;
+        .btn_today{
+            height: auto;
+            padding: 10px 18px;
+            color: #002d4b;
+            font-weight: 600;
+            display: inline-block;
+            border-radius: 5px !important;
+            margin-right: 25px;
+        }
+        .rbc-toolbar-label{
+            color: #002d4b;
+            font-weight: 600;
+            margin: 15px;
+        }
+        .input-custom{
+            .ant-select-selection{
+                padding: 4px 8px !important;
+                color: #002d4b;
+                font-weight: 600;
+                .ant-select-arrow{
+                    color: #05c4e1 !important;
+                }
+            }
+        }
+        img{
+            cursor: pointer;
+        }
+        .select_date{
+            margin-left: 10px;
+        }
+        .select_month{
+            display: inline-block;
+            .sc-kgoBCf{
+                // width: 30%;
+                height: 30%;
+            }
+        }
+        .date_picker{
+            position: absolute;
+            top: 35px;
+            right: 45%;
+            z-index: 8;
+            border: 1px solid gainsboro;
+            background-color: #fff;
+            border-radius: 4px;
+            outline: none;
+        }
+    }
+}
+.rbc-date-cell{
+    text-align: center;
+    height: 20px;
+}
+.ant-tooltip-inner{
+    background-color: #ffffff !important;
+    color: #002d4b !important;
+}
+
+
+@media(max-width: 991px) {
+    .ant-select-dropdown-menu{
+        font-size: 12px;
+    }
+    .full-calendar{
+        .setting_calendar{
+            width: 350px;
+            .titles_calendar{
+                font-size: 13px;
+            }
+            .selectTimes{
+                .ant-radio-wrapper{
+                    margin-left: 4px !important;
+                }
+                .ant-select{
+                    width: 90% !important;
+                }
+            }
+            .customTimes .ant-time-picker{
+                width: 110px !important;
+            }
+            .blockDates{
+                width: 98%;
+            }
+            button.save{
+                margin-left: 24px !important;
+            }
+            .profile_gig .profile_gig_right{
+                width: 75%;
+            }
+        }
+        .setting{
+            margin-top: 5px !important;
+            right: 15px;
+        }
+        .rbc-toolbar {
+            font-size: 14px;
+            .row {
+                .select_month .sc-kgoBCf{
+                    right: 5%;
+                }
+                .col-md-12{
+                    padding: 0;
+                }
+                .btn_today {
+                    padding: 6px 11px;
+                    margin-right: 7px;
+                }
+                .rbc-toolbar-label{
+                    margin: 0px;
+                }
+                .input-custom .ant-select-selection {
+                    padding: 0px 0px !important;
+                }
+                .next{
+                    margin-right: 7px !important;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .ant-select-dropdown-menu{
+        font-size: 10px;
+    }
+    .full-calendar{
+        .setting_calendar{
+            .titles_calendar{
+                font-size: 12px;
+            }
+            .selectTimes{
+                .ant-select{
+                    font-size: 12px;
+                }
+                .input-custom .ant-select-selection--single{
+                    padding: 8px 14px;
+                }
+            }
+            .customTimes .ant-time-picker{
+                width: 80px !important;
+                input{
+                    padding: 12px 12px;
+                    font-size: 13px;
+                }
+            }
+            button.save{
+                margin-left: 20px !important;
+            }
+            .profile_gig .profile_gig_right{
+                width: 70%;
+                font-size: 12px;
+            }
+        }
+        .setting{
+            right: 5px !important;
+        }
+        .rbc-toolbar {
+            .row {
+                .bRDFbd{
+                    right: -10px;
+                }
+                .btn_today {
+                    padding: 4px 7px;
+                    margin-right: 3px;
+                    font-size: 13px;
+                }
+                .rbc-toolbar-label{
+                    font-size: 12px;
+                }
+                .input-custom .ant-select-selection {
+                    font-size: 13px;
+                }
+                .next{
+                    margin-right: 3px !important;
+                }
+                .ant-select-selection__rendered{
+                    line-height: 24px;
+                    margin-right: 6px;
+                    margin-left: 6px;
+                }
+              
+            }
+        }
+    }
+}
+
+@media(max-width: 350px) {
+    .full-calendar{
+        .rbc-toolbar {
+            .row {
+                .btn_today {
+                    font-size: 11px;
+                }
+                .rbc-toolbar-label{
+                    font-size: 11px;
+                }
+                .input-custom .ant-select-selection {
+                    font-size: 11px;
+                }
+                .select_month .sc-kgoBCf{
+                    right: 0%;
+                    width: 280px;
+                    .hjkNCa{
+                        width: 37px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+$form_padding: 30px;
+$heigh_element: 65px;
+.FormLogin {
+    width: 500px;
+    padding: 30px 40px;
+    border-radius: 5px;
+    margin: 50px auto;
+    margin-top: 80px;
+    .btn-social{
+        border-radius: 5px !important;
+    }
+    .or_register{
+        color: #002d4b;
+        font-size: 13px;
+        text-align: center;
+        font-weight: 300;
+        line-height: 30px;
+        text-align: center;
+        margin: 16px 0;
+    }
+    .border__50h-big {
+        border-radius: 5px;
+    }
+
+    &__Btn {
+        position: relative;
+        height: $heigh_element !important;
+        margin-bottom: 5px;
+        // padding: $form_padding;
+        i, img {
+            position: absolute;
+            left: $form_padding;
+            top: 50%;
+            transform: translateY(-50%)
+        }
+
+        &__icon {
+            width: 16px;
+            height: 16px;
+        }
+
+        &--facebook {
+            border: none !important;
+            background-color: #4464a2 !important;
+            color: white !important;
+        }
+
+        &--login {
+            border: none !important;
+            background-color: $info !important;
+            color: white !important;
+            margin-bottom: 15px;
+        }
+        &--signup {
+            height: $heigh_element / 1.3 !important;
+        }
+    }
+
+    &__Text {
+        &-or {
+            text-align: center;
+            margin: $form_padding / 2;
+        }    
+    }
+
+    &__Input {
+        border-radius: 5px !important;
+        padding: 25px !important;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 576px) {
+    .FormLogin {
+        width: 400px !important;
+        padding: 30px 10px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .FormLogin {
+        width: 350px !important;
+        padding: 30px 5px !important;
+        &__Btn {
+            height: 50px !important;
+        }
+        &__Input {
+            height: 50px !important;
+            padding: 25px !important;
+        }
+        .forgot_pass{
+            font-size: 12px;
+        }
+        .acction_signup{
+            .signup_login{
+                a .customer_sign{
+                    width: 49% !important;
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

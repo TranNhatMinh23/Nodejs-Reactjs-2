@@ -1,0 +1,453 @@
+.cancellation_policy {
+    margin-top: 30px;
+    color: #002d4b;
+    .cancellation_amendment {
+        margin: 25px 0px 20px 35px;
+        color:#05c4e1;
+    }
+    .under_amendment {
+        margin: -10px 0px 20px 35px;
+    }
+
+    .bold-text {
+        font-weight: 600;
+    }
+    .title {
+        // width: 271px;
+        // height: 35px;
+        // padding: 10px;
+        margin-bottom: 15px;
+        font-family: Montserrat;
+        font-size: 29px;
+        font-weight: 500;
+        color: #002d4b;
+    }
+    .cancellation_applied_strict{
+        padding: 0 10px;
+        font-size: 22px;
+        color: #05c4e1;
+    }
+
+    .wrapper {
+        background: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 35px 0 rgba(90, 97, 105, 0.1);
+
+        .cancellation_policy_header {
+            margin: 0;
+            height: 60px;
+            background: #e2e2e2;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            -webkit-flex-wrap: nowrap;
+            /* Safari */
+            flex-wrap: nowrap;
+            justify-content: space-around;
+
+            .parent {
+                flex-grow: 1;
+                height: 60px;
+                border-left: 2px solid white;
+                text-align: center;
+                cursor: pointer;
+                position: relative;
+
+                &:first-child {
+                    border: 0;
+                }
+
+                &.active {
+                    background: #05c4e1;
+                    overflow: hidden;
+
+                    .name {
+                        color: white;
+
+                    }
+
+                    &:first-child {
+                        border-radius: 8px 0 0 0;
+                    }
+
+                    &:last-child {
+                        border-radius: 0 8px 0 0;
+                    }
+                }
+
+                .name {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    line-height: 16px;
+                    transform: translate(-50%, -50%);
+                    width: 100%;
+                    text-align: center;
+                    color: #002d4b;
+                    font-size: 16px;
+
+                    .applying {
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+
+        .cancellation_policy_description {
+            font-family: Montserrat;
+            font-size: 13px;
+
+            line-height: 1.54;
+            letter-spacing: normal;
+            text-align: justify;
+            color: #002d4b;
+            padding: 40px 55px;
+        }
+
+        .cancellation_policy_time {
+            display: flex;
+            align-items: center;
+            border-left: 8px solid #efefef;
+            margin-left: 40px;
+
+            &.time-2 {
+                border-left: 8px solid #05c4e1;
+            }
+            &.time-2:last-child {
+                margin-bottom: 30px;
+            }
+
+            .item {
+                display: inline;
+                padding: 5px;
+                text-align: justify;
+
+                .time-mobile {
+                    width: 70px;
+                    display: none;
+                    margin: 21px auto;
+                }
+                .time-mobile::before {
+                    display: none;
+                    width: 3px;
+                    margin: 0 auto;
+                    height: 7px;
+                    background: #002d4b;
+                    content: '';
+                    margin-top: -28px;
+                }
+
+                &.time {
+                    margin-right: 10px;
+                    position: relative;
+                    min-width: 90px;
+                    font-size: 13px;
+
+                    &::before {
+                        display: block;
+                        width: 6px;
+                        height: 2px;
+                        background: #002d4b;
+                        content: '';
+                        position: absolute;
+                        left: -6px;
+                        top: calc(50% - 1px);
+                    }
+                }
+
+                &.content {
+                    padding-right: 40px;
+                }
+            }
+        }
+
+        .cancellation_policy_fee {
+            padding: 10px 70px;
+            width: 100%;
+
+            .fee_wrapper {
+                margin-top: 20px;
+                margin-bottom: 30px;
+                border-radius: 8px;
+                background-color: rgba(226, 226, 226, 0.3);
+
+                .fee_content {
+                    padding: 30px;
+                    padding-bottom: 20px;
+
+                    h6 {
+                        color: #05c4e1;
+                    }
+
+                    span {
+                        color: #002d4b;
+                    }
+
+                    p {
+                        text-align: justify;
+                        margin-top: 15px;
+                    }
+                }
+            }
+        }
+
+        .btn-apply {
+            margin-left: 40px;
+            margin-bottom: 40px;
+            margin-top: 30px;
+            button {
+                width: 209px;
+                height: 60px;
+                border-radius: 5px;
+                background: #05c4e1;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: bold;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ffffff;
+                outline: none;
+                border: 0;
+            }
+        }
+    }
+}
+
+.customer_book {
+    .cancellation_policy_description {
+        label {
+            font-size: 13px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #05c4e1;
+        }
+
+        .request {
+            .left {
+                font-size: 13px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                color: #05c4e1;
+            }
+
+            hr {
+                margin: 41px 0;
+            }
+        }
+
+        .content-select {
+            max-width: 340px;
+            margin-bottom: 41px;
+
+            &:after {
+                top: calc(50% - -8px);
+            }
+        }
+
+        button {
+            width: 209px;
+            height: 60px;
+            border-radius: 5px !important;
+            background-color: #05c4e1;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #ffffff;
+        }
+    }
+}
+
+.PopupBooking {
+    .instant {
+        padding: 46px 63px;
+    }
+
+    .request {
+        padding: 27px 42px;
+
+        .content {
+            margin-bottom: 33px;
+            img {
+                width: 70px;
+                height: 70px;
+            }
+
+            p {
+                font-size: 13px;
+                font-weight: 300;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.54;
+                letter-spacing: -0.3px;
+                color: #002d4b;
+                margin: 0;
+                text-align: left;
+            }
+            .title {
+                color: #05c4e1;
+            }
+        }
+    }
+
+    >div {
+        h3 {
+            font-size: 21px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: center;
+            color: #002d4b;
+            margin-bottom: 28px;
+        }
+
+        p {
+            font-size: 13px;
+            font-weight: 300;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.54;
+            letter-spacing: -0.3px;
+            text-align: center;
+            color: #002d4b;
+            margin-bottom: 52px;
+        }
+    }
+}
+
+.ModalApplyCancellationPolicy {
+    top: 20%;
+    max-width: 430px !important;
+    color: #002d4b;
+
+    h5 {
+        margin-top: 20px;
+    }
+
+    p {
+        width: 270px;
+        margin: 20px auto;
+    }
+
+    button {
+        width: 160px;
+        height: 60px;
+        border-radius: 5px;
+        border: 0;
+        margin: 10px 15px;
+    }
+
+    .btn-cancel {
+        border: 1px solid #05c4e1;
+        background: white;
+        font-weight: bold;
+        color: #05c4e1;
+    }
+
+    .btn-submit {
+        background: #05c4e1;
+
+    }
+
+    div {
+        margin-bottom: 5px;
+    }
+}
+.ModalBeforeVerifyPassbase {
+    top: 10%;
+    max-width: 600px !important;
+    color: #002d4b;
+
+    h5 {
+        font-size: 1rem !important; 
+        margin-top: 20px;
+    }
+
+    button {
+        width: 160px;
+        height: 60px;
+        border-radius: 5px;
+        border: 0;
+        margin: 10px 15px;
+    }
+
+    .btn-cancel {
+        border: 1px solid #05c4e1;
+        background: white;
+        font-weight: bold;
+        color: #05c4e1;
+    }
+
+    .btn-submit {
+        background: #05c4e1;
+
+    }
+
+    div {
+        margin-bottom: 5px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .cancellation_policy {
+        .wrapper {
+            .cancellation_policy_header {
+                .parent {
+                    padding: 5px;
+                }
+            }
+
+            .cancellation_policy_time {
+                display: block;
+                border-left: none;
+                border-top: 8px solid #efefef;
+                // margin-left: 40px;
+                margin-right: 40px;
+
+                &.time-2 {
+                    border-left: none;
+                    border-top: 8px solid #05c4e1;
+                }
+                .item {
+                    width: 100%;
+                    &.time {
+                        display: none;
+                    }
+                    .time-mobile {
+                        display: block;
+                    }
+                    .time-mobile::before {
+                        display: block;
+                    }
+                }
+            }
+
+            .btn-apply {
+                width: 100%;
+                margin: unset;
+
+                div {
+                    width: 100%;
+                }
+
+                button {
+                    margin-left: calc((100% - 209px) / 2);
+                    margin-bottom: 40px;
+                }
+            }
+        }
+    }
+}

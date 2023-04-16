@@ -1,0 +1,252 @@
+.modal-wrapper {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+.modal-header {
+  height: 60px;
+  background: #002d4b;
+  box-shadow: 0px 7px 16px rgba(0, 0, 0, 0.24);
+}
+.modal-header-inner {
+  margin-left: 100px;
+}
+.logo-image-wrap {
+  float: left;
+}
+.logo-image {
+  width: 150px;
+}
+.logo-text {
+  float: right;
+}
+.logo-text-content {
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+.modal-content {
+  border: 0px;
+  background-color: #f2f2f2;
+}
+.user-gig {
+  margin-top: 40px !important;
+}
+.talent {
+  margin-left: 5%;
+}
+.customer {
+  margin-right: 5%;
+}
+.talent-header {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  background-color: #05c4e1;
+}
+.talent-header-text {
+  margin-bottom: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
+}
+.customer-header {
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+  background-color: #002d4b;
+}
+.customer-header-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 49px;
+  text-align: center;
+  color: #ffffff;
+}
+.sign-up {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 40px;
+  text-align: center;
+  color: #002d4b;
+}
+.today-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+
+  color: #002d4b;
+}
+.today-number-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 72px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+
+  color: #05c4e1;
+}
+.reset-margin {
+  margin-bottom: 0;
+}
+.total-number-content {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 62px;
+  /* identical to box height, or 112% */
+
+  text-align: center;
+
+  color: #002d4b;
+}
+.second-middle1-text {
+  margin-top: 10px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 43px;
+  /* or 67% */
+
+  align-items: center;
+  text-align: center;
+
+  color: #05c4e1;
+}
+.custom {
+  font-size: 14px !important;
+}
+.superstar-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #002d4b;
+}
+.sup-under-text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 24px;
+  /* or 75% */
+
+  align-items: center;
+  text-align: center;
+
+  color: #05c4e1;
+}
+.custom-sup {
+  font-size: 15px !important;
+}
+.custom-color {
+  color: #002d4b !important;
+}
+.character {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 50px;
+  /* or 167% */
+
+  align-items: center;
+  text-align: center;
+
+  color: #002d4b;
+}
+p {
+  margin-bottom: 0;
+}
+.note {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 26px;
+  /* or 182% */
+
+  color: #002d4b;
+}
+.boder-col {
+  border-right: 1px solid #e2e2e2;
+  border-left: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+}
+.padding-cus {
+  padding-left: 0;
+  padding-right: 0;
+}
+.reset-margin-top {
+  margin-top: 15px;
+}
+@media (max-width: 768px) {
+  .modal-header-inner {
+    margin-left: 20px;
+  }
+  .button-cus {
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
+}
+@media (max-width: 500px) {
+  .logo-text-content {
+    font-size: 15px !important;
+  }
+  .cus-col-mobile1 {
+    width: 20%;
+  }
+  .cus-col-mobile2 {
+    width: 40%;
+  }
+  .cus-col-mobile3 {
+    width: 40%;
+  }
+  .today {
+    margin-top: 23px;
+  }
+  .cus-col-mobile {
+    width: 33.33%;
+  }
+  .todate {
+    margin-left: 17px !important;
+  }
+  .note-first {
+    float: left !important ;
+  }
+  .note-cus {
+    margin-bottom: 30px;
+  }
+  .btn-submit {
+    margin-top: 15px;
+    width: 70%;
+  }
+}

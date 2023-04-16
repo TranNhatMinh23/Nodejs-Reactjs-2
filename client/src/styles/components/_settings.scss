@@ -1,0 +1,629 @@
+.PopupWithdrawal {
+  text-align: center;
+  width: 450px;
+  height: 364px;
+  padding: 50px 0px;
+  margin: 0 auto;
+
+  h4 {
+    color: #05c4e1;
+  }
+  p {
+    margin-bottom: 30px;
+  }
+  span {
+    margin-left: -45%;
+  }
+  .submit-withdraw {
+    margin-top: 30px;
+    border-radius: 5px;
+    padding: 15px 70px;
+    width: 80%;
+    background-color: #05c4e1;
+  }
+
+  .input-withdraw {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.settings {
+  .btn-withdrawal {
+    border-radius: 5px;
+    border-color: #05c4e1;
+    position: relative;
+    background-color: white;
+    top: 50%;
+    color: #05c4e1;
+    transform: translateY(-50%);
+  }
+
+  .margin-top-15 {
+    margin-top: 15px;
+  }
+  .balance-info {
+    p {
+      margin-bottom: -0.25em;
+    }
+  }
+  .input-withdrawal {
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .dasdboard-content {
+    position: relative;
+    top: 0 !important;
+    left: 0;
+    height: auto !important;
+  }
+  .payment_header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    .item {
+      display: flex;
+      padding: 0;
+      border-right: 1px solid #e2e2e2;
+      .payment-detail {
+        width: 100%;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        box-shadow: 0 4px 35px rgba(90, 97, 105, 0.1);
+        border-radius: 6px;
+        background-color: #ffffff;
+        padding: 25px 30px;
+        .wrap-content {
+          .item-title {
+            color: #002d4b;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 2;
+            .toolip_info {
+              color: rgb(5, 196, 225);
+              position: absolute;
+              margin-top: 8px;
+              font-size: 14px;
+              margin-left: 5px;
+            }
+          }
+          label {
+            padding: 12px 30px;
+            font-size: 13px;
+            img {
+              margin-right: 10px;
+            }
+          }
+          .bg-icon-right {
+            background-position: 97% 50% !important;
+          }
+          .card-content {
+            align-items: center;
+            margin-bottom: 30px;
+            p {
+              font-size: 13px;
+              font-weight: 300;
+              line-height: 2;
+              color: #002d4b;
+              margin: 0;
+            }
+            .action {
+              padding: 0;
+              p {
+                font-size: 11px;
+                color: #05c4e1;
+                cursor: pointer;
+              }
+            }
+            img {
+              width: 47px;
+            }
+          }
+          .billing_loaction {
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 2;
+            color: #002d4b;
+          }
+          .action_editPostcode {
+            p {
+              width: 30%;
+              text-align: center;
+              float: right;
+              cursor: pointer;
+              color: #05c4e1;
+            }
+            .cancel {
+              text-align: right;
+            }
+          }
+        }
+      }
+    }
+  }
+  .wrapper {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 35px 0 rgba(90, 97, 105, 0.1);
+    .payment_history_header {
+      margin: 0;
+      height: 60px;
+      background: #e2e2e2;
+      border-radius: 8px 8px 0 0;
+      display: flex;
+      -webkit-flex-wrap: nowrap;
+      /* Safari */
+      flex-wrap: nowrap;
+      justify-content: space-around;
+
+      .parent {
+        flex-grow: 1;
+        height: 60px;
+        border-left: 2px solid white;
+        text-align: center;
+        cursor: pointer;
+        position: relative;
+
+        &:first-child {
+          border: 0;
+        }
+
+        &.active {
+          background: #05c4e1;
+          overflow: hidden;
+
+          .name {
+            color: white;
+          }
+
+          &:first-child {
+            border-radius: 8px 0 0 0;
+          }
+
+          &:last-child {
+            border-radius: 0 8px 0 0;
+          }
+        }
+
+        .name {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          line-height: 16px;
+          transform: translate(-50%, -50%);
+          width: 100%;
+          text-align: center;
+          color: #002d4b;
+          font-size: 16px;
+        }
+      }
+    }
+    .payment_history_description {
+      .payment-history {
+        .warp-content {
+          box-shadow: 0 4px 35px rgba(90, 97, 105, 0.1);
+          border-radius: 6px;
+          background-color: #ffffff;
+          > ul {
+            padding: 0;
+            list-style: none;
+            margin-bottom: 80px;
+            .search_pagination {
+              .search {
+                width: 70%;
+                display: inline-flex;
+                float: left;
+                .all_transactions {
+                  width: 22%;
+                  line-height: 3.5;
+                }
+                .rangePicker {
+                  width: 40%;
+                  .search_input {
+                    width: auto !important;
+                    font-size: 13px;
+                    line-height: 3.5;
+                    .ant-calendar-picker-input {
+                      border-radius: 30px;
+                      border: solid 1px #e2e2e2;
+                    }
+                  }
+                }
+                .action_search {
+                  margin-top: 6px;
+                  border-radius: 33px;
+                  margin-left: 10px;
+                  i {
+                    font-size: 20px;
+                  }
+                }
+              }
+              .pagination {
+                width: 40%;
+              }
+            }
+            > li {
+              height: 56px;
+              color: #002d4b;
+              font-size: 13px;
+              font-weight: 300;
+              align-items: center;
+              display: flex;
+              padding: 0 26px;
+              &:nth-child(even) {
+                background-color: rgba(226, 226, 226, 0.3);
+              }
+            }
+            .item {
+              cursor: pointer;
+              .left {
+                -ms-flex-preferred-size: 0;
+                flex-basis: 0;
+                -ms-flex-positive: 1;
+                flex-grow: 1;
+                max-width: 100%;
+                .code_pay {
+                  color: #05c4e1;
+                  font-family: monospace;
+                }
+                .pay_date {
+                  font-size: 10px;
+                }
+              }
+              .right {
+                -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+                width: auto;
+                max-width: 100%;
+                .pay_status {
+                  font-size: 10px;
+                  float: right;
+                }
+              }
+            }
+          }
+          label {
+            margin-left: 26px;
+            margin-bottom: 40px;
+          }
+        }
+      }
+    }
+  }
+
+  .add-card {
+    .wrap-content {
+      box-shadow: 0 4px 35px rgba(90, 97, 105, 0.1);
+      border-radius: 6px;
+      background-color: #ffffff;
+      padding: 40px;
+      > p {
+        font-size: 13px;
+        font-weight: 300;
+        color: #002d4b;
+        margin-bottom: 20px;
+      }
+      .card-form {
+        max-width: 450px;
+        button {
+          padding-left: 22px;
+          padding-right: 22px;
+          margin-top: 20px;
+          width: 100%;
+          border-radius: 30px;
+          background-color: #05c4e1;
+          color: #ffffff;
+          height: 60px;
+          font-size: 16px;
+          font-weight: 700;
+          border: none;
+          .ant-spin {
+            float: left;
+          }
+        }
+      }
+    }
+  }
+  .location-service {
+    margin-top: 15px;
+    background: #ffffff;
+    padding: 26px;
+    p {
+      color: #002d4b;
+      font-size: 13px;
+      font-weight: 300;
+    }
+    .tip {
+      margin-bottom: 27px;
+    }
+    .btn-current-location {
+      border-radius: 30px;
+      border: 1px solid #05c4e1;
+      color: #05c4e1;
+      font-size: 16px;
+      font-weight: 300;
+      height: 60px;
+      background: #ffffff;
+      width: 100%;
+      padding-left: 22px;
+      img {
+        float: left;
+      }
+    }
+    .gls {
+      margin-top: 21px;
+      align-items: center;
+      .title {
+        color: #002d4b;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: -0.3px;
+        margin-left: 15px;
+      }
+      .btn-toggle {
+        > div {
+          width: 69px !important;
+          > div {
+            width: 69px !important;
+            height: 40px !important;
+            &:last-of-type {
+              > div {
+                width: 32px !important;
+                height: 32px !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .content-select {
+    position: relative;
+    margin-bottom: 16px;
+    .form-control {
+      height: 50px;
+      border-radius: 25px;
+      border: 1px solid #e2e2e2;
+      color: #002d4b;
+      font-size: 13px;
+      font-weight: 300;
+      letter-spacing: -0.3px;
+      padding-left: 26px;
+      padding-right: 26px;
+    }
+    .select-reason {
+      -moz-appearance: none;
+      -webkit-appearance: none;
+      appearance: none;
+      &::-ms-expand {
+        display: none;
+      }
+    }
+    img {
+      position: absolute;
+      right: 26px;
+      top: 20px;
+    }
+  }
+}
+.add-card {
+  .ant-modal-content {
+    .ant-modal-title {
+      color: #05c4e1;
+      font-size: 25px;
+    }
+    .Payment__addCard {
+      .form-control.is-invalid {
+        background-image: none !important;
+      }
+      .btn-submitAddCard {
+        width: 100%;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #05c4e1;
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.25;
+        text-align: center;
+        color: #ffffff;
+        border: 0;
+        margin: 30px 0;
+      }
+      .billing_info {
+        overflow: -webkit-paged-y;
+        p {
+          color: #05c4e1;
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+.bank-account {
+  .form-control.is-invalid {
+    background-image: none !important;
+  }
+  .title {
+    color: #05c4e1;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 2.28;
+    display: block;
+    text-align: left;
+  }
+  .title-2 {
+    width: 212px;
+    height: 19px;
+    font-family: Montserrat;
+    font-size: 13px;
+    color: #002d4b;
+    display: block;
+    margin-bottom: 15px;
+  }
+  .btn-submit {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #05c4e1;
+    border: 0;
+  }
+}
+
+.ant-calendar-time {
+  .ant-calendar-footer {
+    .ant-calendar-time-picker-btn {
+      display: none !important;
+    }
+    .ant-calendar-ok-btn {
+      padding: 0 20px;
+      color: #fff;
+    }
+    .ant-calendar-ok-btn-disabled {
+      color: #d9d9d9;
+      cursor: default;
+    }
+    .clear_date {
+      height: 28px !important;
+    }
+  }
+}
+
+.popupCustomMobile {
+  .ant-calendar-range {
+    width: 290px;
+    .ant-calendar-panel { 
+      .ant-calendar-date-panel {
+        .ant-calendar-range-middle{
+          left: 90% !important;
+        }
+        display: grid;
+        .ant-calendar-range-part {
+          width: 100% !important;
+          .ant-calendar-input-wrap {
+            height: 50px !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 768px) {
+  .col-sm-auto {
+    width: 100% !important;
+  }
+  .settings {
+    .content {
+      padding: 50px 18px !important;
+      .payment-detail {
+        padding: 25px 10px !important;
+        .wrap-content {
+          .card-content {
+            .action p {
+              padding: 0 15px !important;
+            }
+          }
+        }
+      }
+      .wrapper {
+        .payment_history_description {
+          .search_pagination {
+            .search {
+              width: 50% !important;
+              .all_transactions {
+                display: none;
+              }
+              .rangePicker {
+                width: 85% !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .popupCustomMobile {
+    .ant-calendar-range {
+      width: 330px;
+    }
+  }
+  .settings {
+    .content {
+      .title {
+        margin-top: 0 !important;
+      }
+      .item {
+        border-bottom: 1px solid #e2e2e2 !important;
+        border-right: 0;
+      }
+      .wrapper {
+        .payment_history_description {
+          .search_pagination {
+            .search {
+              width: 30% !important;
+              .all_transactions {
+                display: none;
+              }
+              .rangePicker {
+                display: none;
+              }
+              .mobile {
+                display: block !important;
+                .rangePickerMobile {
+                  .search_input {
+                    width: 50px !important;
+                    input {
+                      display: none;
+                    }
+                    .ant-calendar-range-picker-separator {
+                      display: none;
+                    }
+                    .ant-calendar-picker-icon {
+                      display: none;
+                    }
+                  }
+                  .anticon-search {
+                    position: absolute;
+                    font-size: 20px;
+                    top: 17px;
+                    opacity: 0.5;
+                    margin-left: -35px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .col-sm-auto {
+    flex: 0 0 auto;
+    width: auto !important;
+    max-width: 100%;
+  }
+  .settings {
+    .content {
+      padding: 5px 0px !important;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .popupCustomMobile {
+    .ant-calendar-range {
+      width: 290px;
+    }
+  }
+}

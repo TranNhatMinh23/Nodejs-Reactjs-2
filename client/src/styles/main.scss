@@ -1,0 +1,218 @@
+@import "./variables/index";
+@import "./common/index";
+// components
+@import "./components/index";
+
+.pd-0{
+  padding: 0 !important;
+}
+.bg-dashboard {
+  background: #f6f6f6;
+  height: 100vh;
+}
+.dasdboard-content {
+  /* margin-left: 250px; */
+  margin-top: 0;
+  /* width: 100%; */
+  position: absolute;
+  top: 82px;
+  left: 250px;
+  right: 0;
+  background: #f6f6f6;
+  height: calc(100vh - 83px);
+  overflow: auto;
+}
+.dashboard-content {
+  /* margin-left: 250px; */
+  margin-top: 0;
+  /* width: 100%; */
+  position: absolute;
+  top: 82px;
+  left: 250px;
+  right: 0;
+  background: #f6f6f6;
+  height: calc(100vh - 83px);
+  overflow: auto;
+}
+.boxShadow {
+  -webkit-box-shadow: 0px 0px 11px 0px rgba(215, 215, 219, 1);
+  -moz-box-shadow: 0px 0px 11px 0px rgba(215, 215, 219, 1);
+  box-shadow: 0px 0px 11px 0px rgba(215, 215, 219, 1);
+}
+.btn-none {
+  padding: 12px 40px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 300;
+  color: #05c4e1;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border: 1px solid #05c4e1;
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #05c4e1;
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(215, 215, 219, 1);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(215, 215, 219, 1);
+    box-shadow: 0px 0px 11px 0px rgba(215, 215, 219, 1);
+  }
+}
+
+.btn-disabled {
+  background: grey !important;
+  cursor: not-allowed !important;
+}
+
+.action-book {
+  button{
+    cursor: pointer;
+    &:disabled{
+      cursor: not-allowed;
+    }
+  }
+}
+.send_message_me {
+  div > button {
+    &:disabled {
+      cursor: not-allowed;
+    }
+  }
+}
+.bg-icon-right {
+  background: url("/assets/images/Expand.png") no-repeat;
+  background-position: 85% 50%;
+}
+.btn-submit{
+  cursor: pointer;
+  &:disabled{
+    cursor: not-allowed;
+  }
+}
+
+.gz-input {
+  color: #777777 !important; 
+  input {
+    color: #777777 !important; 
+    &::placeholder {
+      color: #9b9b9b !important;
+    }
+  }
+
+  &::placeholder {
+    color: #9b9b9b !important;
+  }
+}
+
+@media (max-width: 538px) {
+  .header {
+    padding: 10px 25px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .dasdboard-content {
+    height: auto !important;
+    position: inherit !important;
+    overflow: inherit !important;
+  }
+  .header {
+    position: fixed;
+    z-index: 2003 !important;
+    // padding: 10px 25px !important;
+  }
+  
+}
+.header {
+  background: #002c4a;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.27);
+}
+.talent-menu, .customer-menu {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .financial-section, .reset_password, .setup-section, .register-section, .PaymentProcess, .gig-guarantee, .contact-us-section, .term-section, .about-us-section, .blog-section {
+    .header {
+      background: #002c4a !important;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.27) !important;
+    }
+    .payment-process {
+      margin-top: 60px !important;
+    }
+  }
+  .search-page {
+    .header {
+      background: #002c4a !important;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.27) !important;
+    }
+    .marginTop78 {
+      margin-top: 60px !important;
+    }
+  }
+  .EntertainerApp {
+    .book-page, .complete-booking {
+      .book-content, .complete-booking-content {
+        margin-top: 60px !important;
+      }
+      .header {
+        background: #002c4a !important;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.27) !important;
+      }
+    }
+  }
+  
+  .bg-dashboard {
+    .talent-menu, .customer-menu  {
+      display: inline-block;
+      max-height: 400px;
+      overflow: auto;
+    }
+    .dashboard-on-mobile {
+      display: none;
+    }
+    .dasdboard-content, .dashboard-content {
+      margin-top: 60px !important;
+    }
+     
+    .header {
+      background: #002c4a !important;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.27) !important;
+    }
+    // .category-management{
+    //   margin-top: 0px !important;
+    // }
+  }
+ 
+  .Login, .help-section {
+    .header {
+      background: #002c4a !important;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.27) !important;
+    }
+  }
+}
+
+.dashboard-mobile {
+  color: #fff !important;
+  margin-right: 12px;
+}
+
+.wd24he22 {
+  width: 24px;
+  height: 22px;
+}
+.wd24he24 {
+  width: 24px;
+  height: 24px;
+}
+.wd16he8 {
+  width: 16px;
+  height: 8px;
+}
+
+.pad20x {
+  padding: 0 20px 0 20px;
+}
+
+.avatar-define-fit {
+  object-fit: cover;
+}

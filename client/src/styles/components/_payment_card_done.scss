@@ -1,0 +1,171 @@
+.PaymentCardDone{
+    margin-bottom: 20px;
+    .wrapper{
+        min-width: 460px;
+        border: 1px solid #e2e2e2;
+        border-radius: 8px;
+        overflow: hidden;
+        .img-top{
+            height: 300px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .all-done{
+            font-family: Montserrat;
+            font-size: 34px;
+            font-weight: 600;
+            line-height: 1.26;
+            padding: 20px 40px;
+            color: #002d4b;
+            border-bottom: 1px solid #e2e2e2;
+            margin-bottom: 5px;
+
+        }
+        .detail{
+            border-bottom: 1px solid #e2e2e2;
+            .detail-user{
+                padding: 40px;
+                padding-top: 0;
+                padding-bottom: 15px;
+                width: 80%;
+                float: left;
+
+                .address{
+                    font-family: Montserrat;
+                    font-size: 18.8px;
+                    font-weight: 300;
+                    line-height: 2.28;
+                    color: #05c4e1;
+                    margin-bottom: 0;
+                }
+                .username{
+                    font-family: Montserrat;
+                    font-size: 34px;
+                    font-weight: 600;
+                    line-height: 1.26;
+                    color: #002d4b;
+                }
+                .rating{
+                    display: flex;
+                    margin-top: 10px;
+                    .star-ratings{
+                        width: auto;
+                        text-align: left;
+                        margin-left: -10px;
+                    }
+                    span{
+                        font-size: 20px
+                    }
+                }
+            }
+            .avatar{
+                width: 20%;
+                float: left;
+                margin-top: 25px;
+                img{
+                    width: 80px !important;
+                    height: 80px;
+                    border-radius: 50%;
+                }
+            }
+        }
+        .content{
+            padding: 40px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .msg{
+                font-family: Montserrat;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 2.24;
+                color: #002d4b;
+                span{
+                    display: block;
+                }
+            }
+             i{
+                 margin-top: 10px;
+                color: #05c4e1;
+                font-size: 40px;
+                margin-right: 10px;
+                position: absolute;
+            }
+            .txt{
+                padding-left: 50px;
+                padding-top: 10px;
+                .question{
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 1.53;
+                    color: #002d4b;
+                }
+                .browse{
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 2.28;
+                    color: #05c4e1;
+                    display: block;
+                    margin-top: -5px;
+                }
+            }
+            .icon-right{
+                border-top: 2px solid #05c4e1;
+                border-right: 2px solid #05c4e1;
+                width: 14px;
+                height: 14px;
+                display: inline-block;
+                transform: rotate(45deg);
+            }
+            button{
+                width: 100%;
+                font-size: 18px;
+                height: 70px;
+                border-radius: 5px;
+                background-color: #05c4e1;
+                font-weight: bold;
+                line-height: 2.28;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .PaymentCardDone{
+        .wrapper{
+            min-width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 455px) {
+    .PaymentCardDone{
+        .wrapper{
+            .detail{
+                .detail-user{
+                    width: 100%;
+                    .username{
+                        font-size: 18px !important
+                    }
+                    .address{
+                        font-size: 18px !important
+                    }
+                    .rating{
+                        margin-top: 5px !important;
+                        span{
+                        font-size: 18px !important
+                        }
+                        flex-direction: column
+                    }
+                }
+                .avatar{
+                    display: none;
+                }
+
+            }
+            min-width: 100%;
+        }
+    }
+}

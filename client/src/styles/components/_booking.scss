@@ -1,0 +1,1348 @@
+.book-page {
+    .book-content {
+        .book-info {
+            .ant-row {
+                margin-left: 0px !important;
+                margin-right: 0px !important;
+            }
+            .view_profile {
+                .read-more-title{
+                    margin-bottom: 30px;
+                    font-size: 30px   !important;
+                }
+                // padding: 0 30px !important;
+            }
+            // width: 80%;
+            margin: 0 auto;
+            margin-top: 30px;
+            .book-right {
+                border: solid 1px #f2f2f2;
+                background-color: #f6f6f6;
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+            .package-book {
+                background-color: #ffffff;
+                padding: 30px;
+                h1 {
+                    margin: 0;
+                    color: #05c4e1;
+                    font-size: 25px;
+                    font-weight: 300;
+                    line-height: 57px;
+                    margin-bottom: 20px;
+                }
+                .backage {
+                    .ant-row{
+                        display: flex;
+                        flex-wrap: wrap;
+                    }
+                    .ant-col-sm-12{
+                        display: flex;
+                        max-width: 200px;
+                    }
+                    .package-item {
+                        width: 100%;
+                        display: flex;
+                        margin-bottom: 24px;
+                        .ant-card{
+                            justify-content: center;
+                            display: flex;
+                            .ant-card-body{
+                                display: flex;
+                                flex-direction: column;
+                            }
+                        }
+                        h3 {
+                            word-break: break-word;
+                            flex: 1 0 auto;
+                            font-family: "Montserrat";
+                            font-size: 16px;
+                            font-weight: 700;
+                            color: #ffffff;
+                            margin-bottom: 15px;
+                        }
+                        .price {
+                            font-size: 24px;
+                            font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            line-height: 0.83;
+                            letter-spacing: normal;
+                            text-align: center;
+                            color: #ffffff;
+                        }
+                        p {
+                            width: 100%;
+                            color: #ffffff;
+                            font-size: 14px;
+                            font-weight: 300;
+                            line-height: 20px;
+                            // word-break: break-all;
+                            overflow: hidden;
+                        }
+                        a {
+                            //padding: 10px !important;
+                            margin-top: 20px;
+                            // width: 100%;
+                        }
+                    }
+                }
+            }
+            .package-info{
+
+                padding: 0 30px;
+                background: white;
+                table {
+
+                    margin-bottom: 0px !important;
+                    background-color: white !important;
+                    td{
+                        .toolip_info{
+                            margin-left: 10px !important;
+                            svg{
+                                margin-bottom: 5px !important;
+                                color: #05c4e1 !important
+                            }
+                        }
+                        svg{
+                            color: #05c4e1
+                        }
+                        padding: 1.5rem 2rem !important; 
+                    }
+                    .total-price{
+                        background-color: silver
+                    }
+                }
+            }
+            .package-filter {
+                .select-time{
+                    .ant-select-selection__rendered{
+                        margin-left: 0 !important;
+                        .ant-select-selection-selected-value{
+                            font-size: 16px !important
+                        }
+                    }
+                }
+                .toolip_info{
+                    margin-left: 10px;
+                    svg{
+                        margin-bottom: 5px;
+                        color: #05c4e1
+                    }
+                }
+                svg{
+                    color: #05c4e1
+                }
+                background-color: #ffffff;
+                padding: 30px;
+            } // review-book
+            .review-book {
+                // padding-bottom: 30px;
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 45px;
+                h6 {
+                    font-size: 25px;
+                    line-height: 57px;
+                    margin-bottom: 0;
+                }
+                h3 {
+                    font-family: "Montserrat";
+                    font-size: 45px;
+                    font-weight: 600;
+                    line-height: 57px;
+                    margin-bottom: 0;
+                }
+                .review-content {
+                    display: flex;
+                    margin: 20px 0 30px;
+                    .star-ratings {
+                        width: auto;
+                        display: inline-flex;
+                    }
+                    span {
+                        display: inline-flex;
+                        font-size: 25px;
+                        font-weight: 300;
+                        line-height: 30px;
+                        margin-left: 10px;
+                    }
+                }
+                .btn-message-me .btn-message{
+                    font-size: 16px;
+                    padding: 3px 10px;
+                    border-radius: 5px !important;
+                    font-weight: 700 !important;
+                    border: none !important;
+                    display: inline-block;
+                }
+                //.review-book-status {
+                //    //display: flex;
+                //    margin-bottom: 30px;
+                //    .bg-status {
+                //        color: #05c4e1;
+                //        font-size: 19px;
+                //        font-weight: 300;
+                //        line-height: 40px;
+                //        padding-left: 50px;
+                //        background-size: contain !important;
+                //        margin-bottom: 15px;
+                //        margin-right: 15px;
+                //    }
+                //    .bg-verified {
+                //        background: url("/assets/images/book/ic1.png") no-repeat left center;
+                //    }
+                //    .bg-insured {
+                //        background: url("/assets/images/book/ic2.png") no-repeat left center;
+                //    }
+                //    .bg-request {
+                //        background: url("/assets/images/book/ic4.png") no-repeat left center;
+                //    }
+                //    .bg-instandt {
+                //        background: url("/assets/images/book/ic3.png") no-repeat left center;
+                //    }
+                //}
+              
+                .reivew-score {
+                    h4 {
+                        font-size: 25px;
+                        margin-bottom: 0;
+                        font-family: "Montserrat";
+                    }
+                    p {
+                        font-size: 25px;
+                    }
+                }
+                }
+
+                // biography-book
+                .biography-book {
+                    .show-date-picker-on-mobile {
+                        display: none;
+                    }
+                    .short-text{
+                        white-space: pre-line;
+                        color: rgba(0, 0, 0, .65);
+                        font-size: 14px;
+                        font-variant: tabular-nums;
+                        line-height: 1.5;
+                        list-style: none;
+                    }
+                    .readMoreText {
+                        color: #05c4e1 !important;
+                    }
+
+                    a {
+                        color: #05c4e1 !important;
+                    }
+
+                    word-break: break-word;
+                    padding-bottom: 45px;
+                border-bottom: 1px solid #ddd;
+                margin-bottom: 45px;
+            } // packages-read-more
+            .packages-read-more {
+                a{
+                    color:#05c4e1 !important;
+                }
+                word-break: break-word;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+                border-bottom: 1px solid #ddd;
+            } // location-book
+            .location-book {
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 20px;
+                margin-bottom: 30px;
+                width: 100%;
+                span{
+                    font-family: Montserrat;
+                    font-size: 14px;
+                    font-weight: bold;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: 1.69;
+                    letter-spacing: normal;
+                    color: #002d4b;
+                }
+                .travel-cost{
+                    margin-top: 20px;
+                    display: flex;
+                    .travel-free{
+                        // margin-right: 80px;
+                        img{
+                            margin-bottom: -20px;
+                            width: 40px;
+                            margin-right: 20px;
+                        }
+                        p{
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            // font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            // line-height: 1.69;
+                            letter-spacing: normal;
+                            // color: #002d4b;
+                            margin-left: 50px;
+                        }
+                    }
+                    .travel-fee{
+                        p{
+                            font-family: Montserrat;
+                            font-size: 14px;
+                            // font-weight: bold;
+                            font-style: normal;
+                            font-stretch: normal;
+                            // line-height: 1.69;
+                            letter-spacing: normal;
+                            // color: #002d4b;
+                            margin-left: 50px;
+                        }
+                        img{
+                            margin-bottom: -20px;
+                            width: 40px;
+                            margin-right: 20px;
+                            width: 40px;
+                        }
+                    }
+                }
+                .location-map {
+                    width: 100%;
+                    margin: 30px 0;
+                    display: inline-block;
+                    height: 590px;
+                    img {
+                        width: 100%;
+                    }
+                }
+            } // cancellation-policies-book
+            .cancellation-policies-book {
+                a{
+                    color:#05c4e1 !important;
+                }
+                border-bottom: 1px solid #ddd;
+                padding-bottom: 30px;
+                .read-more-action{
+                    margin-top: 10px
+                }
+                .cancellation_amendment {
+                    margin: 25px 0px 20px 35px;
+                    color:#05c4e1;
+                }
+                .under_amendment {
+                    margin: -10px 0px 20px 35px;
+                }
+            
+                .bold-text {
+                    font-weight: 600;
+                }
+                .title {
+                    // width: 271px;
+                    // height: 35px;
+                    padding: 10px;
+                    font-family: Montserrat;
+                    font-size: 29px;
+                    font-weight: 300;
+                    color: #002d4b;
+                }
+                .cancellation_applied_strict{
+                    padding: 0 10px;
+                    font-size: 22px;
+                    color: #05c4e1;
+                }
+            
+                .wrapper {
+                    background: white;
+                    border-radius: 8px;
+                    box-shadow: 0 4px 35px 0 rgba(90, 97, 105, 0.1);
+            
+                    .cancellation_policy_header {
+                        margin: 0;
+                        height: 60px;
+                        background: #e2e2e2;
+                        border-radius: 8px 8px 0 0;
+                        display: flex;
+                        -webkit-flex-wrap: nowrap;
+                        /* Safari */
+                        flex-wrap: nowrap;
+                        justify-content: space-around;
+            
+                        .parent {
+                            flex-grow: 1;
+                            height: 60px;
+                            border-left: 2px solid white;
+                            text-align: center;
+                            cursor: pointer;
+                            position: relative;
+            
+                            &:first-child {
+                                border: 0;
+                            }
+            
+                            &.active {
+                                background: #05c4e1;
+                                overflow: hidden;
+            
+                                .name {
+                                    color: white;
+            
+                                }
+            
+                                &:first-child {
+                                    border-radius: 8px 0 0 0;
+                                }
+            
+                                &:last-child {
+                                    border-radius: 0 8px 0 0;
+                                }
+                            }
+            
+                            .name {
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                line-height: 16px;
+                                transform: translate(-50%, -50%);
+                                width: 100%;
+                                text-align: center;
+                                color: #002d4b;
+                                font-size: 16px;
+            
+                                .applying {
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+            
+                    .cancellation_policy_description {
+                        font-family: Montserrat;
+                        font-size: 13px;
+            
+                        line-height: 1.54;
+                        letter-spacing: normal;
+                        text-align: justify;
+                        color: #002d4b;
+                        padding: 40px 55px;
+                    }
+            
+                    .cancellation_policy_time {
+                        display: flex;
+                        align-items: center;
+                        border-left: 8px solid #efefef;
+                        margin-left: 40px;
+            
+                        &.time-2 {
+                            border-left: 8px solid #05c4e1;
+                        }
+                        &.time-2:last-child {
+                            margin-bottom: 30px;
+                        }
+            
+                        .item {
+                            display: inline;
+                            padding: 5px;
+                            text-align: justify;
+            
+                            .time-mobile {
+                                width: 70px;
+                                display: none;
+                                margin: 0 auto;
+                                margin-bottom: 10px;
+                            }
+                            .time-mobile::before {
+                                display: none;
+                                width: 3px;
+                                margin: 0 auto;
+                                height: 7px;
+                                background: #002d4b;
+                                content: '';
+                                margin-top: -28px;
+                            }
+            
+                            &.time {
+                                margin-right: 10px;
+                                position: relative;
+                                min-width: 90px;
+                                font-size: 13px;
+            
+                                &::before {
+                                    display: block;
+                                    width: 6px;
+                                    height: 2px;
+                                    background: #002d4b;
+                                    content: '';
+                                    position: absolute;
+                                    left: -6px;
+                                    top: calc(50% - 1px);
+                                }
+                            }
+            
+                            &.content {
+                                padding-right: 40px;
+                            }
+                        }
+                    }
+            
+                    .cancellation_policy_fee {
+                        padding: 10px 70px;
+                        width: 100%;
+
+                        .fee_wrapper {
+                            margin-top: 20px;
+                            margin-bottom: 30px;
+                            border-radius: 8px;
+                            background-color: rgba(226, 226, 226, 0.3);
+                            .fee_content {
+                                padding: 30px 30px 20px;
+                                h6 {
+                                    color: #05c4e1;
+                                }
+            
+                                span {
+                                    color: #002d4b;
+                                }
+            
+                                p {
+                                    text-align: justify;
+                                    margin-top: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                width: 100%;
+                p {
+                    font-size: 14px;
+                    font-weight: 300;
+                    a {
+                        color: #002d4b;
+                    }
+                }
+            } // user-review
+            .users-review {
+                margin: 30px 0 30px;
+                .ant-list-item-meta-title {
+                    color: #002d4b;
+                    font-size: 14px; // font-weight: 300;
+                    font-family: "Montserrat Semi Bold";
+                    font-weight: 600;
+                    margin: 0;
+                }
+                .ant-list-item-meta-description {
+                    font-size: 14px;
+                    font-weight: 300;
+                    font-family: "Montserrat Semi Bold";
+                    margin: 0;
+                }
+                .ant-list-item-content {
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 21px;
+                    a {
+                        font-size: 14px;
+                        font-weight: 300;
+                        color: #05c4e1;
+                        line-height: 21px;
+                    }
+                }
+                .ant-list-footer {
+                    display: none;
+                }
+                .ant-pagination-item {
+                    border: none;
+                    &:hover {
+                        // padding: 5px;
+                        border-radius: 50%;
+                        background-color: #05c4e1;
+                        color: #fff;
+                    }
+                }
+                .ant-pagination-prev,
+                .ant-pagination-next {
+                    a {
+                        border: none;
+                        &:hover {
+                            border-radius: 50%;
+                            background-color: #05c4e1;
+                            color: #fff;
+                            i {
+                                margin-top: -2px;
+                            }
+                        }
+                    }
+                }
+                .ant-pagination-item-active {
+                    border-radius: 50%;
+                    background-color: #05c4e1;
+                    color: #fff;
+                }
+                .ant-list-pagination {
+                    text-align: left;
+                }
+            }
+        }
+        .action-book {
+            background-color: #ffffff;
+            width: 100%;
+            padding: 30px;
+            text-align: center;
+            button {
+                border-radius: 5px !important;
+                width: 100%;
+            }
+        }
+        .read-more-title {
+            color: #002d4b;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+        }
+        .read-more-content {
+            margin-top: 10px;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 22px;
+            /* Text style for "Etiam semp" */
+            color: #002d4b;
+        }
+        .isReadMore {
+            transform: rotate(180deg);
+        }
+        .sub-read-more {
+            margin-bottom: 24px;
+            h3 {
+                color: #002d4b;
+                font-size: 14px;
+                font-weight: bold;
+                line-height: 22px;
+                color: #002d4b;
+            }
+        }
+        .review-book-status {
+            display: flex;
+            margin-bottom: 30px;
+            .bg-status {
+                p{
+                    margin-top: 10px;
+                    margin-bottom: 0 !important;
+                    line-height: 1;
+                }
+                color: #05c4e1;
+                font-size: 19px;
+                font-weight: 300;
+                line-height: 40px;
+                text-align: center;
+                //padding-left: 50px;
+                background-size: contain !important;
+                margin-bottom: 15px;
+                // margin-right: 20px;
+
+            }
+            //.bg-verified {
+            //    background: url("/assets/images/book/ic1.png") no-repeat left center;
+            //}
+            //.bg-insured {
+            //    background: url("/assets/images/book/ic2.png") no-repeat left center;
+            //}
+            //.bg-request {
+            //    background: url("/assets/images/book/ic4.png") no-repeat left center;
+            //}
+            //.bg-instandt {
+            //    position: relative;
+            //    background: url("/assets/images/book/ic3.png") no-repeat left center;
+            //}
+        }
+        .isPackage {
+            // background-color: #047f8e !important;
+            a {
+                background-color: #002d4b !important;
+                // cursor: not-allowed;
+            }
+            .btn-custom {
+                text-align: center;
+                // padding: 14px 30px !important;
+                img {
+                    margin: 0;
+                    width: 19px !important;
+                    height: 17px;
+                    float: none;
+                }
+            }
+        }
+    }
+   
+    
+    
+    .banner-book {
+        .carousel-banner-booking {
+            .custom-url-link{
+                width: 100% !important;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            display: none;
+        }
+        .banner22{
+              a{
+                  img{
+                      margin-right: 10px
+                  }
+              }
+          }
+        .banner21{
+            a{
+                img{
+                    margin-right: 5px
+                }
+            }
+        }
+        .banner23{
+            a{
+            img{
+                margin-right: 10px
+            }
+        }
+    }
+        position: relative;
+        .content-view {
+            position: absolute;
+            bottom: 31px;
+            right: 35px;
+            z-index: 123;
+        }
+        .content-share {
+            position: absolute;
+            top: 118px;
+            right: 35px;
+            width: 100%;
+            z-index: 123;
+            text-align: right;
+            >div {
+                margin-right: 20px;
+                display: inline;
+            }
+        }
+        .slider-images {
+            img {
+                height: 70vw;
+                width: 100%;
+            }
+        }
+    } // media
+    @media (max-width: 1199px) {
+        .review-book h3 {
+            font-size: 40px !important;
+        }
+        .book-content {
+            .banner-book {
+                .banner1 {
+                    img {
+                        height: 500px !important;
+                    }
+                    a {
+                        left: 90px !important;
+                    }
+                }
+                .banner2 {
+                    .banner22{
+                        a{
+                        img{
+                            margin-right: 10px
+                        }
+                    }
+                    }
+                    .ant-row {
+                        div {
+                            >img {
+                                height: 250px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .book-page .book-content .book-info .book-left {
+            padding: 30px;
+        }
+        .book-page .book-content .book-info .package-book {
+            padding: 30px;
+        }
+        .view_profile {
+            .read-more-title{
+                font-size: 25px   
+            }
+            // padding: 0 30px !important;
+        }
+        .btn-custom {
+            font-size: 14px;
+        }
+        .book-page .book-content .book-info .package-book .backage .package-item a {
+            margin-top: 15px;
+        }
+        .book-page .book-content .book-info .package-filter {
+           
+            padding: 0 30px 30px;
+        }
+        .card-content-result {
+            margin-bottom: 30px !important;
+        }
+    }
+    @media (max-width: 991px) {
+        .book-content .banner-book .banner2 {
+            .ant-row {
+                div {
+                    >img {
+                        height: 200px !important;
+                    }
+                }
+            }
+        }
+        .book-content .banner-book .banner1 img {
+            height: 400px !important;
+        }
+        .card-content-result {
+            margin-bottom: 30px !important;
+        }
+    }
+    @media (max-width: 767px) {
+        .banner-book {
+            .content-share {
+                top: 86px;
+                z-index: 1;
+                div {
+                    margin: 0;
+                }
+                a {
+                    padding: 6px 12px !important;
+                    background-color: transparent !important;
+                    img {
+                        margin: 0;
+                    }
+                    span {
+                        display: none;
+                    }
+                }
+            }
+            .content-view {
+                display: none;
+            }
+        }
+        .book-page .book-content .book-info .review-book h6 {
+            font-size: 20px;
+        }
+        .book-page .book-content .book-info .review-book h3 {
+            font-size: 35px;
+            line-height: 38px;
+        }
+        .book-page .book-content .book-info .review-book .review-content span {
+            font-size: 19px;
+        }
+        .book-page .book-content .book-info .review-book .review-book-status .bg-status {
+            font-size: 18px;
+            line-height: 38px;
+            background-size: contain;
+            margin-bottom: 15px;
+        }
+        .book-page .book-content .book-info .review-book .reivew-score h4 {
+            font-size: 15px;
+        }
+        .book-page .book-content .book-info .review-book .reivew-score p {
+            font-size: 15px;
+        }
+        .book-content .banner-book .banner1 a {
+            left: 30px !important;
+        }
+    }
+    @media (max-width: 768px) {
+        .share-icon-with-text, .add-icon-with-text, .remove-icon-with-text, .add-login-with-text, .view-photo-with-text {
+            display: none !important;
+        }
+        .share-icon-with-no-text, .add-icon-with-no-text, .remove-icon-with-no-text, .add-login-with-no-text, .view-photo-with-no-text {
+            display: inline-block !important;
+        }
+        .review-book .btn-message-me {
+            font-size: 11px;
+            top: 2% !important;
+            // right: 0 !important;
+        }
+    }
+    @media (max-width: 500px) {
+        .review-book .btn-message-me {
+            top: 3% !important;
+        }
+
+        .review-book h3 {
+            font-size: 30px !important;
+        }
+
+        .category-selected {
+            font-size: 20px !important;
+        }
+
+        .biography-book {
+            .show-date-picker-on-mobile {
+                display: inline-block !important;
+            }
+        }
+        .btn-book-to-show2{
+            display: inline-block !important;
+            position: fixed;
+            bottom: 16px;
+            z-index: 4;
+            right: 35px;
+        }
+        .message-me-custom{
+            font-size: 17px !important;
+        }
+        .review-book-status .icon-review{
+            .img-icon-review{
+                height: 40px;
+                width: 40px;
+            }
+            font-size: 15px !important;
+        }
+        .review-book-status{
+            margin-bottom: 15px !important;
+        }
+        .review-book {
+            margin-bottom: 30px !important;
+        }
+    }
+    .btn-book-show-mobile {
+        display: none;
+        button {
+            font-size: 17px !important;
+        }
+    }
+    .btn-book-show-mobile-message-me .btn-book-to-show2{
+        display: none;
+
+    }
+    @media (max-width: 768px) {
+        .banner-book {
+            .carousel-banner-booking {
+                display: inline;
+                .blur-background {
+                    background-image: url(https://i.ibb.co/JdpqLkr/cbimage.png);
+                    background-size: 100% 100%; 
+                    img {
+                    height: 360px !important;
+                    object-fit: contain;
+                }}
+                 .iframe-style{
+                    height: 255px;
+                    
+                }
+            }
+            .banner-image-normal {
+                display: none;
+            }
+            .share-button-hide-mobile {
+                display: inline !important;
+            }
+        }
+        .btn-book-show-mobile {
+            padding-left: 35px !important;
+            padding-right: 35px !important;
+            display: table;
+            // display: inline-block;
+            width: 100% !important;
+            border-spacing: 0px !important;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            border-top: 1px solid rgb(224, 220, 220);
+            position: fixed;
+            bottom: 0;
+            z-index: 4;
+            left: 0;
+            background-color: white;
+
+            .price-to-show, .btn-book-to-show {
+                display: table-cell;
+            }
+        }
+
+        // .btn-book-show-mobile-message-me{
+        //     display: table;
+        //     .btn-book-to-show-message-me{
+        //         font-size: 17px !important;
+        //         padding-left: 35px !important;
+        //         display: table-column;
+        //         padding-right: 35px !important;
+        //         position: fixed;
+        //         bottom:16px;
+        //         z-index: 4;
+        //         right: 50px;
+        //     }
+        // }
+        .review-book .btn-message-me {
+            font-size: 11px;
+        }
+        .book-right {
+            display: none;
+        }  
+
+    }
+    
+    @media (max-width: 1950px) {
+        .book-page .book-content .book-info .review-book .review-book-status .bg-status {
+            font-size: 18px;
+            line-height: 38px;
+            background-size: contain;
+            margin-bottom: 15px;
+        }
+    }
+    @media (min-width: 991px) {
+        .book-content .banner-book .banner-one-pic  {
+            a{
+                img{
+                    margin-right: 10px
+                }
+            }
+            width: 100% !important;
+        }
+        .book-content .banner-book .banner-two-pic  {
+            a{
+                img{
+                    margin-right: 10px
+                }
+            }
+            width: 50% !important;
+        }
+        // .book-page .book-content .book-info .package-book .backage .package-item .item-card {
+        //     text-align: left !important;
+        // }
+        // .book-page .book-content .book-info .package-book .backage .package-item a {
+        //     text-align: center;
+        // }
+    }
+    @media (max-width: 626px) {
+        .book-content .banner-book .banner1 img {
+            height: auto !important;
+        }
+        .book-page .book-content .book-info .package-book .backage .package-item .item-card {
+            text-align: left !important;
+        }
+        .book-page .book-content .book-info .package-book .backage .package-item a {
+            text-align: center;
+        }
+    }
+    @media (max-width: 536px) {
+        .book-content {
+            .book-info {
+                .cancellation-policies-book{
+                    .cancellation_policy_time{
+                        .item{
+                            min-width: 60px !important;
+                        }
+                        margin-left: 10px !important
+                    }
+                }
+            }
+        }
+        .banner-book {
+            .content-share {
+                top: 60px;
+                right: 20px;
+                >div {
+                    margin-right: 10px;
+                }
+            }
+            .content-view {
+                bottom: 20px;
+                right: 20px;
+            }
+            .btn-custom {
+                // padding: 11px 18px !important;
+                font-size: 14px !important;
+                img {
+                    width: 20px;
+                }
+            }
+        }
+        .review-book .btn-message-me {
+            font-size: 10px;
+        } 
+    }
+
+    @media (max-width: 536px) {
+        .btn-message{
+            display: none !important;
+        }
+    }
+    @media (max-width: 768px) {
+        .btn-message{
+            margin-top: 9px;
+            padding: 3px 10px !important;
+            font-size: 13px !important;
+        }
+    }
+
+    @media (max-width: 420px) {
+        .btn-book-to-show .book-now-custom,  .btn-book-to-show2 .message-me-custom{
+            font-size: 14px !important;
+        }
+    }
+    @media (max-width: 390px) {
+        .btn-book-to-show .book-now-custom, .btn-book-to-show2 .message-me-custom{
+            padding-right: 10px !important;
+            padding-left: 10px !important;
+            font-size: 14px !important;
+        }
+    }
+    @media (max-width: 370px) {
+        .btn-book-to-show .book-now-custom, .btn-book-to-show2 .message-me-custom{
+            padding-right: 8px !important;
+            padding-left: 8px !important;
+            font-size: 12px !important;
+        }
+    }
+    @media (max-width: 320px) {
+        .btn-book-to-show .book-now-custom, .btn-book-to-show2 .message-me-custom{
+            padding-right: 7px !important;
+            padding-left: 7px !important;
+            font-size: 12px !important;
+        }
+    }
+}
+
+.modal{
+    top: 6% !important;
+    .modal-picture{
+        .modal-content{
+            .modal-header{
+                padding: 0.5rem 1rem !important
+            }
+            .modal-body{
+                .slider{
+                    .slider-control-bottomcenter{
+                        bottom: -30px !important;
+                    }
+                    .slider-frame{
+                        .slider-list{
+                            height: 100% !important;
+                            .slider-slide{
+                             height: 100% !important;
+                             .custom-url-link {
+                                 display: flex;
+                                 align-items: center;
+                                 justify-content: center;
+                             }
+                                div{
+                                    display: flex;
+                                    background-image: url(https://i.ibb.co/JdpqLkr/cbimage.png);
+                                    background-size: 100% 100%; 
+                                    height: 100% !important;
+                                    width: 100% !important;
+                                }
+                            }
+                        }
+                    }
+                    img{
+                        object-fit: contain;
+                        width: 100% !important;
+                        height: 100% !important;
+                    }
+                    height: 100% !important;
+                }
+                height: 400px;
+                color: #05c4e1;
+                position: initial !important;
+            }
+        }
+        
+    }
+}
+
+.modal-package-booking {
+    height: 100% !important;
+    top: 0px !important;
+
+    .geosuggest__suggests-wrapper {
+        bottom: 40px !important;
+        position: absolute !important;
+        z-index: 99 !important;
+
+        .geosuggest__suggests--hidden {
+            border-top: 0 !important;
+        }
+
+        ul {
+            position: unset !important;
+            border-top-width: 1px !important;
+        }
+    }
+
+    .ant-modal-wrap {
+        z-index: 2147483647;
+    }
+
+    .ant-modal-title {
+        color: #05c4e1;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 57px;
+    }
+
+    .ant-modal-content {
+        height: 90% !important;
+        overflow: auto;
+        margin-top: 65px;
+
+        .ant-modal-body {
+            .package-book {
+                h1 {
+                    margin: 0;
+                    color: #05c4e1;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 57px;
+                    margin-bottom: 20px;
+                }
+                .backage{
+                    .ant-row{
+                        display: flex;
+                        flex-wrap: wrap;
+                        .ant-col{
+                        display: flex;
+                        .package-item{
+                            width: 100%;
+                            display: flex;
+                            .ant-card{
+                                display: flex;
+                                .ant-card-body{
+                                    width: 100%;
+                                    padding: 16px 11px !important ;
+                                    display: flex;
+                                    flex-direction: column;
+                                    h3{
+                                        flex: 1 0 auto;
+                                        // word-break: break-all
+                                    }
+                                }
+                            }                         
+                        }
+
+                        }
+                    }     
+
+                }
+            }
+        }
+    }
+
+    .package-filter {
+        background-color: #ffffff;
+        padding-bottom: 30px;
+
+        .toolip_info {
+            margin-left: 10px;
+
+            svg {
+                margin-bottom: 5px;
+                color: #05c4e1
+            }
+        }
+
+        svg {
+            color: #05c4e1
+        }
+    }
+
+    .package-info {
+
+        // padding: 0 30px;
+        background: white;
+
+        table {
+
+            margin-bottom: 0px !important;
+            background-color: white !important;
+
+            td {
+                .toolip_info {
+                    margin-left: 10px !important;
+
+                    svg {
+                        margin-bottom: 5px !important;
+                        color: #05c4e1 !important
+                    }
+                }
+
+                svg {
+                    color: #05c4e1
+                }
+
+                // padding: 1.5rem 2rem !important; 
+            }
+
+            .total-price {
+                background-color: silver
+            }
+        }
+    }
+
+    .isPackage {
+
+        // background-color: #047f8e !important;
+        a {
+            background-color: #002d4b !important;
+            // cursor: not-allowed;
+        }
+    }
+
+    .package-item {
+        margin-bottom: 24px;
+
+        h3 {
+            font-family: "Montserrat";
+            font-size: 16px;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 15px;
+        }
+
+        p {
+            width: 100%;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 20px;
+            // word-break: break-all;
+            overflow: hidden;
+        }
+
+        .btn-custom>img {
+            height: 17px;
+        }
+    }
+
+    .action-book {
+        margin-top: 20px;
+    }
+}
+.ant-card-body {
+    padding: 16px !important;
+}
+.widget-app-container {
+    display: none !important;
+}
+#hubspot-messages-iframe-container {
+    display: none !important;
+}
+.control-dots {
+    padding-left: 0px !important;
+}
+
+.profile-avatar {
+    img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+    }
+}
